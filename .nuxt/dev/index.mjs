@@ -2177,7 +2177,22 @@ _3Ii_6DZF8eP0VeJxm3ij2o9ucIUnpDaSttvyspEeylM,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
-const assets = {};
+const assets = {
+  "/index.mjs": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"1ec10-2lZeRIMKpU8kp1hnu3yDkaLxf70\"",
+    "mtime": "2026-10-16T09:47:09.451Z",
+    "size": 125968,
+    "path": "index.mjs"
+  },
+  "/index.mjs.map": {
+    "type": "application/json",
+    "etag": "\"7ac8f-IIRl6pZaJDnb558/tP43WK9VoJE\"",
+    "mtime": "2026-10-16T09:47:09.451Z",
+    "size": 502927,
+    "path": "index.mjs.map"
+  }
+};
 
 function readAsset (id) {
   const serverDir = dirname$1(fileURLToPath(globalThis._importMeta_.url));
@@ -3201,7 +3216,7 @@ const styles$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 
 const contact = {
   email: "info@ttriangleltd.com",
-  ng: { phone: "+234 906 818 5433" },
+  ng: { phone: "+234 706 524 5077" },
   na: { phone: "+264 81 844 1704" }
 };
 const services = [

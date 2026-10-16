@@ -1,6 +1,6 @@
 export const contact = {
   email: 'info@ttriangleltd.com',
-  ng: { address: '32 Modupe Young Street, Thomas, Ajah, Lekki-Epe Expressway, Lagos, Nigeria', phone: '+234 906 818 5433' },
+  ng: { address: '32 Modupe Young Street, Thomas, Ajah, Lekki-Epe Expressway, Lagos, Nigeria', phone: '+234 706 524 5077' },
   na: { address: '147 Sam Nujoma Avenue, Walvis Bay, Namibia', phone: '+264 81 844 1704' }
 } // verify all details before launch
 
