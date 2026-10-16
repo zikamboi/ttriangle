@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply font-sans text-slate-600 antialiased; }
+  h1, h2 { @apply font-display font-bold uppercase leading-[1.02] tracking-tight text-brand-dark; }
+  h3 { @apply font-semibold text-brand-dark; }
+}
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-5 sm:px-8; }
+  .section { @apply py-20 sm:py-28; }
+  .eyebrow { @apply mb-4 inline-flex items-center gap-3 text-[12px] font-semibold uppercase tracking-[.22em] text-brand-red; }
+  .eyebrow::before { content: ''; @apply h-0 w-0 border-x-[6px] border-b-[10px] border-x-transparent border-b-brand-red; }
+  .btn { @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 text-[13px] font-semibold uppercase tracking-wider transition duration-300;
+         clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px)); }
+  .btn-red { @apply bg-brand-red text-white hover:bg-red-700; }
+  .btn-white { @apply bg-white text-brand-dark hover:bg-brand-mist; }
+  .btn-ghost { @apply border-2 border-white/40 text-white hover:bg-white hover:text-brand-dark; }
+  .btn-outline { @apply bg-brand text-white hover:bg-brand-dark; }
+  .input { @apply w-full border border-slate-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-brand focus:ring-2 focus:ring-brand/20; }
+  .placeholder-img { background: repeating-linear-gradient(135deg, #0a3a2f 0 14px, #0d4538 14px 28px); }
+  .blueprint { background-image: linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px); background-size: 64px 64px; }
+}
+[data-reveal] { opacity: 0; transform: translateY(28px); transition: opacity .8s ease, transform .8s cubic-bezier(.2,.7,.2,1); }
+[data-reveal].is-visible { opacity: 1; transform: none; }
+.page-enter-active, .page-leave-active { transition: opacity .25s ease; }
+.page-enter-from, .page-leave-to { opacity: 0; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  [data-reveal] { opacity: 1; transform: none; }
+}
