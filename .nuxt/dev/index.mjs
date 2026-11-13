@@ -2180,16 +2180,16 @@ _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 const assets = {
   "/index.mjs": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1f2aa-GePKnDwjaIh1P94lPi7vSzpLNho\"",
-    "mtime": "2026-11-13T21:44:21.219Z",
-    "size": 127658,
+    "etag": "\"1f0b6-NxgEz5eZfJ/glrUXK4XuEfO0Yew\"",
+    "mtime": "2026-11-13T22:54:29.881Z",
+    "size": 127158,
     "path": "index.mjs"
   },
   "/index.mjs.map": {
     "type": "application/json",
-    "etag": "\"7bd1a-5BMkvjrGPDEPBQ0IL7oRBBwteo0\"",
-    "mtime": "2026-11-13T21:44:21.219Z",
-    "size": 507162,
+    "etag": "\"7b356-3VdVaj624G3PTjiNbtyBiq6nzNI\"",
+    "mtime": "2026-11-13T22:54:29.881Z",
+    "size": 504662,
     "path": "index.mjs.map"
   }
 };
@@ -3223,7 +3223,7 @@ const services = [
   {
     slug: "valve-optimisation-solutions",
     name: "Valve Optimisation Solutions",
-    image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/service-1.webp",
     short: "Valve procurement and relevant maintenance, inspection, repair and optimisation support.",
     headline: "Engineered valve solutions. Reliable performance. Operational confidence.",
     intro: "Valves are critical to flow control, process isolation and reliable plant operation. T Triangle Limited supports valve-related procurement and confirmed technical services based on the application, operating conditions and equipment requirement.",
@@ -3233,7 +3233,7 @@ const services = [
   {
     slug: "fluid-transfer-solutions",
     name: "Fluid Transfer Solutions",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/fluid transfer.webp",
     short: "Pump and fluid-transfer equipment, pipeline pigging and related support.",
     headline: "Fluid transfer equipment and pipeline support for demanding operations.",
     intro: "Reliable fluid transfer depends on equipment suited to the fluid, flow requirement, pressure and site conditions. We support defined pump and fluid-transfer requirements alongside pipeline pigging within our confirmed scope.",
@@ -3243,7 +3243,7 @@ const services = [
   {
     slug: "compressed-air-solutions",
     name: "Compressed Air Solutions",
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/compressed-air.webp",
     short: "Compressor equipment, service and rental where available.",
     headline: "Compressed-air equipment, service and rental support.",
     intro: "Compressed air supports industrial tools, instruments and processes. We support defined compressed-air equipment requirements, with service and rental subject to availability and application needs.",
@@ -3253,7 +3253,7 @@ const services = [
   {
     slug: "bolting-torquing-solutions",
     name: "Bolting & Torquing Solutions",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/bolt.webp",
     short: "Controlled tightening equipment and related technical support.",
     headline: "Controlled tightening solutions for critical bolted connections.",
     intro: "Bolted joints require appropriate tools and methods to meet specified joint requirements. We support bolting and torquing requirements with equipment and technical options matched to the joint and project.",
@@ -3263,7 +3263,7 @@ const services = [
   {
     slug: "flange-management-services",
     name: "Flange Management Services",
-    image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/flange.webp",
     short: "Flange-facing, cold-cutting and related flange management solutions.",
     headline: "Practical support for flange preparation and joint integrity.",
     intro: "Flange and bolted-joint work requires suitable tooling, preparation and attention to mating-surface condition. We support flange management through flange-facing and cold-cutting machines, tools and technical services within confirmed scope.",
@@ -3273,7 +3273,7 @@ const services = [
   {
     slug: "pressure-test-solutions",
     name: "Pressure Test Solutions",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/pressure.webp",
     short: "Equipment and support for defined pressure-testing requirements.",
     headline: "Equipment and support for defined pressure-testing requirements.",
     intro: "Pressure testing can help verify equipment or system integrity before service or after maintenance. The right method depends on system design, test medium, governing procedure and site conditions.",
@@ -3283,7 +3283,7 @@ const services = [
   {
     slug: "touchpoint-engineering-access-creation",
     name: "Touchpoint Engineering & Access Creation (CUPS Remediation)",
-    image: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/Touch.webp",
     short: "Specialist engineering and access support; exact scope to be confirmed.",
     headline: "Specialist engineering support for defined access and remediation challenges.",
     intro: "Maintenance and remediation can be complicated by access constraints and site-specific conditions. We support defined engineering and access-creation requirements within the approved scope of each project.",
@@ -3293,7 +3293,7 @@ const services = [
   {
     slug: "safe-isolation-solutions",
     name: "Safe Isolation Solutions",
-    image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/safe-isolation.webp",
     short: "Technologies and support for appropriate isolation requirements.",
     headline: "Safe-isolation solutions for controlled maintenance and operations.",
     intro: "Safe isolation is essential when equipment must be maintained or inspected. The right solution depends on the process, isolation philosophy, risk assessment and approved procedures.",
