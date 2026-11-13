@@ -3,45 +3,45 @@ import { Server } from 'node:http';
 import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, createError, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, getQuery as getQuery$1, getRequestWebStream, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, getRouterParam, readBody, getRequestIP, readMultipartFormData, getResponseStatusText } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/h3/dist/index.mjs';
-import { escapeHtml } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/@vue/shared/dist/shared.cjs.js';
-import viteNodeEntry_mjs from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs';
-import { viteNodeFetch } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/vite-builder/dist/vite-node.mjs';
-import nodemailer from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/nodemailer/lib/nodemailer.js';
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, encodePath, joinRelativeURL } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/vue/server-renderer/index.mjs';
-import { klona } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/defu/dist/defu.mjs';
-import destr, { destr as destr$1 } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/destr/dist/index.mjs';
-import { snakeCase } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/scule/dist/index.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/unhead/dist/server.mjs';
-import { stringify, uneval } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/devalue/index.js';
-import { isVNode, isRef, toValue } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/vue/index.mjs';
-import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/unhead/dist/plugins.mjs';
-import { createHooks } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/node-mock-http/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/unstorage/drivers/fs.mjs';
-import file_58_47_47_47C_58_47Users_47USER_47Downloads_47tt3_47ttriangle_45website_47ttriangle_47node_modules_47_64nuxt_47nitro_45server_47dist_47runtime_47utils_47cache_45driver_46js from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js';
-import { digest, hash as hash$1 } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/ohash/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/radix3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, createError, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, getQuery as getQuery$1, getRequestWebStream, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, getRouterParam, readBody, getRequestIP, readMultipartFormData, getResponseStatusText } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/h3/dist/index.mjs';
+import { escapeHtml } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/@vue/shared/dist/shared.cjs.js';
+import viteNodeEntry_mjs from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs';
+import { viteNodeFetch } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/vite-builder/dist/vite-node.mjs';
+import nodemailer from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/nodemailer/lib/nodemailer.js';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, encodePath, joinRelativeURL } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/vue/server-renderer/index.mjs';
+import { klona } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/defu/dist/defu.mjs';
+import destr, { destr as destr$1 } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/destr/dist/index.mjs';
+import { snakeCase } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/scule/dist/index.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/unhead/dist/server.mjs';
+import { stringify, uneval } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/devalue/index.js';
+import { isVNode, isRef, toValue } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/vue/index.mjs';
+import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/unhead/dist/plugins.mjs';
+import { createHooks } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/node-mock-http/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/unstorage/drivers/fs.mjs';
+import file_58_47_47_47C_58_47Users_47USER_47Downloads_47General_3720Triangle_47tt3_47ttriangle_45website_47ttriangle_47node_modules_47_64nuxt_47nitro_45server_47dist_47runtime_47utils_47cache_45driver_46js from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js';
+import { digest, hash as hash$1 } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/ohash/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/radix3/dist/index.mjs';
 import { readFile } from 'node:fs/promises';
-import consola, { consola as consola$1 } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/youch-core/build/index.js';
-import { Youch } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/source-map/source-map.js';
+import consola, { consola as consola$1 } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/youch-core/build/index.js';
+import { Youch } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/source-map/source-map.js';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { getContext } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/unctx/dist/index.mjs';
-import { captureRawStackTrace, parseRawStackTrace } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/errx/dist/index.mjs';
-import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
+import { getContext } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/unctx/dist/index.mjs';
+import { captureRawStackTrace, parseRawStackTrace } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/errx/dist/index.mjs';
+import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname as dirname$1, resolve as resolve$1 } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/pathe/dist/index.mjs';
-import { walkResolver } from 'file://C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/unhead/dist/utils.mjs';
+import { dirname as dirname$1, resolve as resolve$1 } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/pathe/dist/index.mjs';
+import { walkResolver } from 'file://C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/unhead/dist/utils.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -53,12 +53,12 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle","watchOptions":{"ignored":[null]}}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/server","watchOptions":{"ignored":[null]}}));
-storage.mount('cache:nuxt:payload', file_58_47_47_47C_58_47Users_47USER_47Downloads_47tt3_47ttriangle_45website_47ttriangle_47node_modules_47_64nuxt_47nitro_45server_47dist_47runtime_47utils_47cache_45driver_46js({"driver":"file:///C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js","base":"C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/.nuxt/cache/nuxt/payload"}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/.nuxt"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/.nuxt/cache"}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle","watchOptions":{"ignored":[null]}}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/server","watchOptions":{"ignored":[null]}}));
+storage.mount('cache:nuxt:payload', file_58_47_47_47C_58_47Users_47USER_47Downloads_47General_3720Triangle_47tt3_47ttriangle_45website_47ttriangle_47node_modules_47_64nuxt_47nitro_45server_47dist_47runtime_47utils_47cache_45driver_46js({"driver":"file:///C:/Users/USER/Downloads/General%20Triangle/tt3/ttriangle-website/ttriangle/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js","base":"C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/.nuxt/cache/nuxt/payload"}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/.nuxt"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/.nuxt/cache"}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -2064,13 +2064,13 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _wjhV4jJRv9_N9CZxeu4Gn5BCMIKpdFroSN7Rmp84pIA = (function(nitro) {
+const _ZISlhNtpAIfaQb1IfT6hKUSQToaefAfOrD5U5S9rw0M = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
-const rootDir = "C:/Users/USER/Downloads/tt3/ttriangle-website/ttriangle";
+const rootDir = "C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle";
 
 const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"description","content":"T Triangle Limited supports industrial operators with specialised equipment, engineering services and technical solutions."},{"name":"theme-color","content":"#00251e"}],"link":[{"rel":"preconnect","href":"https://fonts.googleapis.com"},{"rel":"preconnect","href":"https://fonts.gstatic.com","crossorigin":""},{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"}],"style":[],"script":[],"noscript":[],"htmlAttrs":{"lang":"en"},"title":"T Triangle Limited | Engineering & Technical Solutions"};
 
@@ -2096,7 +2096,7 @@ const asyncContext = getContext("nuxt-dev", {
 	asyncContext: true,
 	AsyncLocalStorage
 });
-const _3Ii_6DZF8eP0VeJxm3ij2o9ucIUnpDaSttvyspEeylM = (nitroApp) => {
+const _KrxRKhvd1Sq1SDTWKe2UO2q4R8WAIK3kENKN2s_vQs = (nitroApp) => {
 	const handler = nitroApp.h3App.handler;
 	nitroApp.h3App.handler = (event) => {
 		return asyncContext.callAsync({
@@ -2172,24 +2172,24 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _wjhV4jJRv9_N9CZxeu4Gn5BCMIKpdFroSN7Rmp84pIA,
-_3Ii_6DZF8eP0VeJxm3ij2o9ucIUnpDaSttvyspEeylM,
+  _ZISlhNtpAIfaQb1IfT6hKUSQToaefAfOrD5U5S9rw0M,
+_KrxRKhvd1Sq1SDTWKe2UO2q4R8WAIK3kENKN2s_vQs,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
 const assets = {
   "/index.mjs": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1ec10-2lZeRIMKpU8kp1hnu3yDkaLxf70\"",
-    "mtime": "2026-10-16T09:47:09.451Z",
-    "size": 125968,
+    "etag": "\"1f2aa-GePKnDwjaIh1P94lPi7vSzpLNho\"",
+    "mtime": "2026-11-13T21:44:21.219Z",
+    "size": 127658,
     "path": "index.mjs"
   },
   "/index.mjs.map": {
     "type": "application/json",
-    "etag": "\"7ac8f-IIRl6pZaJDnb558/tP43WK9VoJE\"",
-    "mtime": "2026-10-16T09:47:09.451Z",
-    "size": 502927,
+    "etag": "\"7bd1a-5BMkvjrGPDEPBQ0IL7oRBBwteo0\"",
+    "mtime": "2026-11-13T21:44:21.219Z",
+    "size": 507162,
     "path": "index.mjs.map"
   }
 };
@@ -2217,7 +2217,7 @@ function getAsset (id) {
 
 const METHODS = /* @__PURE__ */ new Set(["HEAD", "GET"]);
 const EncodingMap = { gzip: ".gz", br: ".br" };
-const _Px1_pv = eventHandler((event) => {
+const _vhY9iU = eventHandler((event) => {
   if (event.method && !METHODS.has(event.method)) {
     return;
   }
@@ -2852,17 +2852,17 @@ async function getIslandContext(event) {
 	};
 }
 
-const _lazy_XyFeiI = () => Promise.resolve().then(function () { return chat_post$1; });
-const _lazy_jPtof7 = () => Promise.resolve().then(function () { return enquiry_post$1; });
-const _lazy_zBxa9H = () => Promise.resolve().then(function () { return renderer; });
+const _lazy_bc0PAS = () => Promise.resolve().then(function () { return chat_post$1; });
+const _lazy_O5XeCu = () => Promise.resolve().then(function () { return enquiry_post$1; });
+const _lazy_btSMuc = () => Promise.resolve().then(function () { return renderer; });
 
 const handlers = [
-  { route: '', handler: _Px1_pv, lazy: false, middleware: true, method: undefined },
-  { route: '/api/chat', handler: _lazy_XyFeiI, lazy: true, middleware: false, method: "post" },
-  { route: '/api/enquiry', handler: _lazy_jPtof7, lazy: true, middleware: false, method: "post" },
-  { route: '/__nuxt_error', handler: _lazy_zBxa9H, lazy: true, middleware: false, method: undefined },
+  { route: '', handler: _vhY9iU, lazy: false, middleware: true, method: undefined },
+  { route: '/api/chat', handler: _lazy_bc0PAS, lazy: true, middleware: false, method: "post" },
+  { route: '/api/enquiry', handler: _lazy_O5XeCu, lazy: true, middleware: false, method: "post" },
+  { route: '/__nuxt_error', handler: _lazy_btSMuc, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: handler$1, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_zBxa9H, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_btSMuc, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -3223,6 +3223,7 @@ const services = [
   {
     slug: "valve-optimisation-solutions",
     name: "Valve Optimisation Solutions",
+    image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=1400&q=80",
     short: "Valve procurement and relevant maintenance, inspection, repair and optimisation support.",
     headline: "Engineered valve solutions. Reliable performance. Operational confidence.",
     intro: "Valves are critical to flow control, process isolation and reliable plant operation. T Triangle Limited supports valve-related procurement and confirmed technical services based on the application, operating conditions and equipment requirement.",
@@ -3232,6 +3233,7 @@ const services = [
   {
     slug: "fluid-transfer-solutions",
     name: "Fluid Transfer Solutions",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1400&q=80",
     short: "Pump and fluid-transfer equipment, pipeline pigging and related support.",
     headline: "Fluid transfer equipment and pipeline support for demanding operations.",
     intro: "Reliable fluid transfer depends on equipment suited to the fluid, flow requirement, pressure and site conditions. We support defined pump and fluid-transfer requirements alongside pipeline pigging within our confirmed scope.",
@@ -3241,6 +3243,7 @@ const services = [
   {
     slug: "compressed-air-solutions",
     name: "Compressed Air Solutions",
+    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1400&q=80",
     short: "Compressor equipment, service and rental where available.",
     headline: "Compressed-air equipment, service and rental support.",
     intro: "Compressed air supports industrial tools, instruments and processes. We support defined compressed-air equipment requirements, with service and rental subject to availability and application needs.",
@@ -3250,6 +3253,7 @@ const services = [
   {
     slug: "bolting-torquing-solutions",
     name: "Bolting & Torquing Solutions",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1400&q=80",
     short: "Controlled tightening equipment and related technical support.",
     headline: "Controlled tightening solutions for critical bolted connections.",
     intro: "Bolted joints require appropriate tools and methods to meet specified joint requirements. We support bolting and torquing requirements with equipment and technical options matched to the joint and project.",
@@ -3259,6 +3263,7 @@ const services = [
   {
     slug: "flange-management-services",
     name: "Flange Management Services",
+    image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1400&q=80",
     short: "Flange-facing, cold-cutting and related flange management solutions.",
     headline: "Practical support for flange preparation and joint integrity.",
     intro: "Flange and bolted-joint work requires suitable tooling, preparation and attention to mating-surface condition. We support flange management through flange-facing and cold-cutting machines, tools and technical services within confirmed scope.",
@@ -3268,6 +3273,7 @@ const services = [
   {
     slug: "pressure-test-solutions",
     name: "Pressure Test Solutions",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
     short: "Equipment and support for defined pressure-testing requirements.",
     headline: "Equipment and support for defined pressure-testing requirements.",
     intro: "Pressure testing can help verify equipment or system integrity before service or after maintenance. The right method depends on system design, test medium, governing procedure and site conditions.",
@@ -3277,6 +3283,7 @@ const services = [
   {
     slug: "touchpoint-engineering-access-creation",
     name: "Touchpoint Engineering & Access Creation (CUPS Remediation)",
+    image: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1400&q=80",
     short: "Specialist engineering and access support; exact scope to be confirmed.",
     headline: "Specialist engineering support for defined access and remediation challenges.",
     intro: "Maintenance and remediation can be complicated by access constraints and site-specific conditions. We support defined engineering and access-creation requirements within the approved scope of each project.",
@@ -3286,6 +3293,7 @@ const services = [
   {
     slug: "safe-isolation-solutions",
     name: "Safe Isolation Solutions",
+    image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=80",
     short: "Technologies and support for appropriate isolation requirements.",
     headline: "Safe-isolation solutions for controlled maintenance and operations.",
     intro: "Safe isolation is essential when equipment must be maintained or inspected. The right solution depends on the process, isolation philosophy, risk assessment and approved procedures.",

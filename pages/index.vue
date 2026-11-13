@@ -49,7 +49,11 @@ const steps = [
     <section class="section">
       <div class="container-x grid items-center gap-16 lg:grid-cols-2">
         <div v-reveal class="relative">
-          <AppImage class="aspect-[4/5] sm:aspect-[5/4]" hint="Workshop / site image" />
+          <img
+                src="/images/oil.webp"
+                alt="T Triangle Limited industrial workshop and technical equipment"
+                class="aspect-[4/5] sm:aspect-[5/4] w-full object-cover"
+              />
           <div class="absolute -bottom-6 -right-6 hidden h-32 w-32 bg-brand-red sm:block" style="clip-path:polygon(100% 0,100% 100%,0 100%)"></div>
         </div>
         <div v-reveal="150">
@@ -68,18 +72,23 @@ const steps = [
         <div class="grid gap-10 lg:grid-cols-[1fr_1.05fr]">
           <ul class="border-t border-slate-300">
             <li v-for="(s, i) in services" :key="s.slug" v-reveal="i * 40" class="border-b border-slate-300">
-              <NuxtLink :to="`/services/${s.slug}`" @mouseenter="active = i" @focus="active = i" class="group flex items-center gap-5 py-5">
+              <button type="button" :aria-pressed="active === i" @click="active = i" @mouseenter="active = i" @focus="active = i" class="group flex w-full items-center gap-5 py-5 text-left">
                 <span :class="['font-display text-3xl font-bold transition', active === i ? 'text-brand-red' : 'text-slate-300']">0{{ i + 1 }}</span>
                 <span :class="['flex-1 font-display text-2xl font-semibold uppercase transition sm:text-3xl', active === i ? 'translate-x-2 text-brand-dark' : 'text-slate-500']">{{ s.name.split(' (')[0] }}</span>
                 <span :class="['transition', active === i ? 'translate-x-0 text-brand-red opacity-100' : '-translate-x-3 opacity-0']">→</span>
-              </NuxtLink>
+              </button>
             </li>
           </ul>
-          <div class="hidden lg:block">
+          <div>
             <div class="sticky top-28">
               <Transition name="page" mode="out-in">
                 <div :key="active" class="overflow-hidden bg-white shadow-xl">
-                  <AppImage class="aspect-[16/10]" :hint="`Image: ${services[active].name}`" />
+                        <img
+                        :src="services[active].image"
+                        :alt="services[active].name"
+                        class="aspect-[16/10] w-full object-cover"
+                      />
+                  
                   <div class="p-8">
                     <p class="font-display text-lg font-bold text-brand-red">0{{ active + 1 }}</p>
                     <h3 class="mt-1 text-2xl">{{ services[active].name }}</h3>
