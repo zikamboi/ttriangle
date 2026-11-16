@@ -43,7 +43,7 @@ async function submit() {
       <option value="other">Other / Not sure</option>
     </select>
     <select v-model="f.type" class="input"><option value="">Enquiry type</option><option v-for="t in types" :key="t">{{ t }}</option></select>
-    <select v-if="f.service === 'specialised-oem'" v-model="f.technology" class="input"><option value="">Technology of interest</option><option v-for="p in partners" :key="p">{{ p }}</option></select>
+    <select v-if="f.service === 'specialised-oem'" v-model="f.technology" class="input"><option value="">Technology of interest</option><option v-for="p in partners" :key="p.name" :value="p.name">{{ p.name }}</option></select>
     <input v-model="f.date" type="date" class="input" aria-label="Required date" />
     <textarea v-model="f.details" rows="5" class="input sm:col-span-2" placeholder="Equipment / application / specification"></textarea>
     <div class="sm:col-span-2">

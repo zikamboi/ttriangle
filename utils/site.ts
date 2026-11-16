@@ -80,7 +80,32 @@ export const services = [
     enquiry: 'System/application, isolation challenge, valve/process details, pressure/medium, site conditions, procedure requirements and timeline.' }
 ]
 
-export const partners = ['Valvetight', 'Alcatraz', 'Ovolift', 'MODEC', 'Alkitronic', 'Linerider']
+export const partners = [
+  { name: 'oems1', image: '/images/oems1.webp' },
+  { name: 'oems2', image: '/images/oems2.webp' },
+  { name: 'oems3', image: '/images/oems3.webp' },
+  { name: 'oems4', image: '/images/oems4.webp' },
+  { name: 'oems5', image: '/images/oems5.webp' },
+  { name: 'oems6', image: '/images/oems6.webp' },
+  { name: 'oems7', image: '/images/oems7.webp' },
+  { name: 'oems8', image: '/images/oems8.webp' },
+  { name: 'oems9', image: '/images/oems9.webp' },
+  { name: 'oems10', image: '/images/oems10.webp' },
+  { name: 'oems11', image: '/images/oems11.webp' },
+   { name: 'oems12', image: '/images/oems12.webp' },
+  { name: 'oems13', image: '/images/oems13.webp' },
+  { name: 'oems14', image: '/images/oems14.webp' },
+  { name: 'oems15', image: '/images/oems15.webp' },
+  { name: 'oems16', image: '/images/oems16.webp' },
+  { name: 'oems17', image: '/images/oems17.webp' },
+   { name: 'oems18', image: '/images/oems18.webp' },
+  { name: 'oems19', image: '/images/oems19.webp' },
+  { name: 'oems20', image: '/images/oems20.webp' },
+  { name: 'oems21', image: '/images/oems21.webp' },
+  { name: 'oems22', image: '/images/oems22.webp' },
+   
+  
+]
 
 export const markets = ['Oil & Gas', 'Energy & Power', 'Industrial & Manufacturing', 'Marine & Offshore', 'Construction & Process Industries']
 

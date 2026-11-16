@@ -154,9 +154,12 @@ const steps = [
       <div class="container-x">
         <SectionHead center eyebrow="Our OEM & Technology Partners" title="Connecting you with the right technology" text="We work with relevant OEMs and technology partners to connect clients with equipment and specialised solutions suited to their applications." />
         <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
-          <NuxtLink v-for="(p, i) in partners" :key="p" to="/oem" v-reveal="i * 70" class="grid h-28 place-items-center border border-slate-200 font-display text-2xl font-bold uppercase tracking-wide text-slate-400 transition hover:border-brand-red hover:text-brand-dark hover:shadow-lg">
-            <!-- replace with <img :src="`/logos/${p.toLowerCase()}.png`"> once approved logos are added -->{{ p }}
-          </NuxtLink>
+          <div v-for="(p, i) in partners.slice(0, 6)" :key="p.name" v-reveal="i * 70" class="grid h-28 place-items-center border border-slate-200 p-4">
+            <img :src="p.image" :alt="p.name" loading="lazy" class="max-h-full max-w-full object-contain" />
+          </div>
+        </div>
+        <div class="mt-8 text-center">
+          <NuxtLink to="/partners" class="btn btn-outline">See more</NuxtLink>
         </div>
       </div>
     </section>

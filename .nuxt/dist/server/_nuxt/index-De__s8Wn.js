@@ -1,0 +1,362 @@
+import { _ as __nuxt_component_0 } from "./HeroArt-Chj0iCKI.js";
+import { _ as __nuxt_component_0$1 } from "./nuxt-link-GS68twfD.js";
+import { _ as _sfc_main$1 } from "./SectionHead-BNbasbdL.js";
+import { _ as _sfc_main$2 } from "./AppImage-C2ZouWCe.js";
+import { _ as __nuxt_component_5 } from "./CtaBand-D-F5GDeV.js";
+import { c as contact, s as services, w as why, m as markets, p as partners, i as insights } from "./site-DeS5fg6X.js";
+import { defineComponent, ref, resolveDirective, withCtx, createTextVNode, createVNode, unref, mergeProps, toDisplayString, useSSRContext } from "vue";
+import { ssrRenderAttrs, ssrRenderComponent, ssrRenderStyle, ssrRenderAttr, ssrInterpolate, ssrRenderList, ssrGetDirectiveProps, ssrRenderClass } from "vue/server-renderer";
+import { publicAssetsURL } from "#internal/nuxt/paths";
+import { u as useHead } from "./v3-w9sd3xiW.js";
+import "../server.mjs";
+import "C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/node_modules/ofetch/dist/node.mjs";
+import "C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/node_modules/hookable/dist/index.mjs";
+import "C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/node_modules/unctx/dist/index.mjs";
+import "C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/node_modules/h3/dist/index.mjs";
+import "vue-router";
+import "C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/node_modules/defu/dist/defu.mjs";
+import "C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/node_modules/ufo/dist/index.mjs";
+import "C:/Users/USER/Downloads/General Triangle/tt3/ttriangle-website/ttriangle/node_modules/@unhead/vue/dist/index.mjs";
+const _imports_0 = publicAssetsURL("/images/oil.webp");
+const _sfc_main = /* @__PURE__ */ defineComponent({
+  __name: "index",
+  __ssrInlineRender: true,
+  setup(__props) {
+    useHead({ title: "T Triangle Limited | Engineering & Technical Solutions" });
+    const active = ref(0);
+    const loop = [...services, ...services];
+    const steps = [
+      ["Share your requirement", "Tell us the application, site, specifications and timeline."],
+      ["We review and clarify", "Our team reviews the scope and may ask follow-up questions."],
+      ["We coordinate options", "Suitable equipment and specialist support are identified."],
+      ["You receive a response", "We come back to you using the details you provided."]
+    ];
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_HeroArt = __nuxt_component_0;
+      const _component_NuxtLink = __nuxt_component_0$1;
+      const _component_SectionHead = _sfc_main$1;
+      const _component_AppImage = _sfc_main$2;
+      const _component_CtaBand = __nuxt_component_5;
+      const _directive_reveal = resolveDirective("reveal");
+      _push(`<div${ssrRenderAttrs(_attrs)}><section class="relative flex min-h-[100svh] flex-col overflow-hidden bg-brand-dark text-white">`);
+      {
+        _push(`<!---->`);
+      }
+      _push(ssrRenderComponent(_component_HeroArt, null, null, _parent));
+      _push(`<div class="container-x relative flex flex-1 items-center pb-10 pt-44"><div class="max-w-4xl"><p class="eyebrow animate-fade-up !text-white">Lagos · Walvis Bay</p><h1 class="animate-fade-up text-5xl !text-white sm:text-7xl lg:text-[6.5rem]" style="${ssrRenderStyle({ "animation-delay": ".1s" })}"> Engineering and technical solutions for <span class="text-brand-red">critical operations</span></h1><p class="mt-7 max-w-xl animate-fade-up text-lg text-white/75" style="${ssrRenderStyle({ "animation-delay": ".25s" })}"> We support industrial operators with specialised equipment, engineering services and technical solutions designed around operational requirements. </p><div class="mt-10 flex animate-fade-up flex-wrap gap-4" style="${ssrRenderStyle({ "animation-delay": ".4s" })}">`);
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/contact",
+        class: "btn btn-red"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`Discuss Your Requirement`);
+          } else {
+            return [
+              createTextVNode("Discuss Your Requirement")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/services",
+        class: "btn btn-ghost"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`Explore Our Services`);
+          } else {
+            return [
+              createTextVNode("Explore Our Services")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div></div></div><div class="container-x relative mb-8 grid animate-fade-up border-t border-white/15 sm:grid-cols-3" style="${ssrRenderStyle({ "animation-delay": ".6s" })}">`);
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/contact",
+        class: "group border-white/15 py-5 sm:border-r sm:pr-6"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<span class="text-xs uppercase tracking-widest text-white/50"${_scopeId}>Quotations</span><span class="mt-1 flex items-center justify-between font-display text-2xl uppercase"${_scopeId}>Request a Quote <span class="transition group-hover:translate-x-2"${_scopeId}>→</span></span>`);
+          } else {
+            return [
+              createVNode("span", { class: "text-xs uppercase tracking-widest text-white/50" }, "Quotations"),
+              createVNode("span", { class: "mt-1 flex items-center justify-between font-display text-2xl uppercase" }, [
+                createTextVNode("Request a Quote "),
+                createVNode("span", { class: "transition group-hover:translate-x-2" }, "→")
+              ])
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/oem",
+        class: "group border-white/15 py-5 sm:border-r sm:px-6"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<span class="text-xs uppercase tracking-widest text-white/50"${_scopeId}>Technologies</span><span class="mt-1 flex items-center justify-between font-display text-2xl uppercase"${_scopeId}>Specialised OEM <span class="transition group-hover:translate-x-2"${_scopeId}>→</span></span>`);
+          } else {
+            return [
+              createVNode("span", { class: "text-xs uppercase tracking-widest text-white/50" }, "Technologies"),
+              createVNode("span", { class: "mt-1 flex items-center justify-between font-display text-2xl uppercase" }, [
+                createTextVNode("Specialised OEM "),
+                createVNode("span", { class: "transition group-hover:translate-x-2" }, "→")
+              ])
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`<a${ssrRenderAttr("href", `tel:${("contact" in _ctx ? _ctx.contact : unref(contact)).ng.phone.replace(/\s/g, "")}`)} class="group py-5 sm:pl-6"><span class="text-xs uppercase tracking-widest text-white/50">Speak to our team</span><span class="mt-1 flex items-center justify-between font-display text-2xl uppercase">${ssrInterpolate(("contact" in _ctx ? _ctx.contact : unref(contact)).ng.phone)} <span class="transition group-hover:translate-x-2">→</span></span></a></div></section><div class="overflow-hidden bg-brand-red py-3.5 text-white"><div class="flex w-max animate-marquee whitespace-nowrap font-display text-xl font-semibold uppercase tracking-wider"><!--[-->`);
+      ssrRenderList(loop, (s, i) => {
+        _push(`<span class="pr-10">▲ ${ssrInterpolate(s.name.split(" (")[0])}</span>`);
+      });
+      _push(`<!--]--></div></div><section class="section"><div class="container-x grid items-center gap-16 lg:grid-cols-2"><div${ssrRenderAttrs(mergeProps({ class: "relative" }, ssrGetDirectiveProps(_ctx, _directive_reveal)))}><img${ssrRenderAttr("src", _imports_0)} alt="T Triangle Limited industrial workshop and technical equipment" class="aspect-[4/5] sm:aspect-[5/4] w-full object-cover"><div class="absolute -bottom-6 -right-6 hidden h-32 w-32 bg-brand-red sm:block" style="${ssrRenderStyle({ "clip-path": "polygon(100% 0,100% 100%,0 100%)" })}"></div></div><div${ssrRenderAttrs(ssrGetDirectiveProps(_ctx, _directive_reveal, 150))}><p class="eyebrow">Who we are</p><h2 class="text-4xl sm:text-6xl">The right technical support makes the difference</h2><p class="mt-6 text-lg">When equipment performance, safe operations and project schedules matter, T Triangle Limited works with clients to understand their applications, clarify requirements and coordinate suitable equipment and specialist services for the operating environment.</p>`);
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/about",
+        class: "btn btn-outline mt-8"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`About Us →`);
+          } else {
+            return [
+              createTextVNode("About Us →")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div></div></section><section id="services" class="section bg-brand-mist"><div class="container-x">`);
+      _push(ssrRenderComponent(_component_SectionHead, {
+        eyebrow: "Our Core Services",
+        title: "Eight service areas. One dependable partner."
+      }, null, _parent));
+      _push(`<div class="grid gap-10 lg:grid-cols-[1fr_1.05fr]"><ul class="border-t border-slate-300"><!--[-->`);
+      ssrRenderList("services" in _ctx ? _ctx.services : unref(services), (s, i) => {
+        _push(`<li${ssrRenderAttrs(mergeProps({
+          key: s.slug,
+          class: "border-b border-slate-300"
+        }, ssrGetDirectiveProps(_ctx, _directive_reveal, i * 40)))}><button type="button"${ssrRenderAttr("aria-pressed", unref(active) === i)} class="group flex w-full items-center gap-5 py-5 text-left"><span class="${ssrRenderClass(["font-display text-3xl font-bold transition", unref(active) === i ? "text-brand-red" : "text-slate-300"])}">0${ssrInterpolate(i + 1)}</span><span class="${ssrRenderClass(["flex-1 font-display text-2xl font-semibold uppercase transition sm:text-3xl", unref(active) === i ? "translate-x-2 text-brand-dark" : "text-slate-500"])}">${ssrInterpolate(s.name.split(" (")[0])}</span><span class="${ssrRenderClass(["transition", unref(active) === i ? "translate-x-0 text-brand-red opacity-100" : "-translate-x-3 opacity-0"])}">→</span></button></li>`);
+      });
+      _push(`<!--]--></ul><div><div class="sticky top-28"><div class="overflow-hidden bg-white shadow-xl"><img${ssrRenderAttr("src", ("services" in _ctx ? _ctx.services : unref(services))[unref(active)].image)}${ssrRenderAttr("alt", ("services" in _ctx ? _ctx.services : unref(services))[unref(active)].name)} class="aspect-[16/10] w-full object-cover"><div class="p-8"><p class="font-display text-lg font-bold text-brand-red">0${ssrInterpolate(unref(active) + 1)}</p><h3 class="mt-1 text-2xl">${ssrInterpolate(("services" in _ctx ? _ctx.services : unref(services))[unref(active)].name)}</h3><p class="mt-3">${ssrInterpolate(("services" in _ctx ? _ctx.services : unref(services))[unref(active)].short)}</p>`);
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: `/services/${("services" in _ctx ? _ctx.services : unref(services))[unref(active)].slug}`,
+        class: "btn btn-red mt-6"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`Explore Service →`);
+          } else {
+            return [
+              createTextVNode("Explore Service →")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div></div></div></div></div></div></section><section class="relative overflow-hidden bg-brand-dark py-24 text-white sm:py-28"><div class="blueprint absolute inset-0 opacity-60"></div><div class="container-x relative"><div${ssrRenderAttrs(mergeProps({ class: "mb-14 max-w-3xl" }, ssrGetDirectiveProps(_ctx, _directive_reveal)))}><p class="eyebrow !text-white">Why work with us</p><h2 class="text-4xl !text-white sm:text-6xl">Why work with T Triangle</h2></div><div class="grid gap-px bg-white/15 sm:grid-cols-2 lg:grid-cols-5"><!--[-->`);
+      ssrRenderList("why" in _ctx ? _ctx.why : unref(why), (w, i) => {
+        _push(`<div${ssrRenderAttrs(mergeProps({
+          key: w[0],
+          class: "group bg-brand-dark p-7 transition hover:bg-brand"
+        }, ssrGetDirectiveProps(_ctx, _directive_reveal, i * 90)))}><span class="font-display text-5xl font-bold text-brand-red">0${ssrInterpolate(i + 1)}</span><h3 class="mt-4 text-lg !text-white">${ssrInterpolate(w[0])}</h3><p class="mt-3 text-sm text-white/65">${ssrInterpolate(w[1])}</p></div>`);
+      });
+      _push(`<!--]--></div></div></section><section class="section"><div class="container-x">`);
+      _push(ssrRenderComponent(_component_SectionHead, {
+        eyebrow: "Our Market Focus",
+        title: "Industries we serve",
+        text: "Industrial environments where equipment reliability, safe work practices and dependable technical support matter."
+      }, null, _parent));
+      _push(`<div class="flex flex-col gap-3 lg:h-[28rem] lg:flex-row"><!--[-->`);
+      ssrRenderList("markets" in _ctx ? _ctx.markets : unref(markets), (m, i) => {
+        _push(ssrRenderComponent(_component_NuxtLink, {
+          key: m,
+          to: "/about#market-focus",
+          class: "group relative h-52 overflow-hidden lg:h-auto lg:flex-1 lg:transition-all lg:duration-700 lg:hover:flex-[2.4]"
+        }, {
+          default: withCtx((_, _push2, _parent2, _scopeId) => {
+            if (_push2) {
+              _push2(`<div class="absolute inset-0"${_scopeId}>`);
+              _push2(ssrRenderComponent(_component_AppImage, {
+                class: "h-full w-full",
+                hint: `Image: ${m}`
+              }, null, _parent2, _scopeId));
+              _push2(`</div><div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/50 to-transparent"${_scopeId}></div><div class="absolute bottom-0 p-6 text-white"${_scopeId}><span class="font-display text-lg font-bold text-brand-red"${_scopeId}>0${ssrInterpolate(i + 1)}</span><h3 class="font-display text-3xl font-semibold uppercase leading-none !text-white"${_scopeId}>${ssrInterpolate(m)}</h3><span class="mt-3 block translate-y-2 text-sm opacity-100 transition duration-500 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100"${_scopeId}>Explore →</span></div>`);
+            } else {
+              return [
+                createVNode("div", { class: "absolute inset-0" }, [
+                  createVNode(_component_AppImage, {
+                    class: "h-full w-full",
+                    hint: `Image: ${m}`
+                  }, null, 8, ["hint"])
+                ]),
+                createVNode("div", { class: "absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/50 to-transparent" }),
+                createVNode("div", { class: "absolute bottom-0 p-6 text-white" }, [
+                  createVNode("span", { class: "font-display text-lg font-bold text-brand-red" }, "0" + toDisplayString(i + 1), 1),
+                  createVNode("h3", { class: "font-display text-3xl font-semibold uppercase leading-none !text-white" }, toDisplayString(m), 1),
+                  createVNode("span", { class: "mt-3 block translate-y-2 text-sm opacity-100 transition duration-500 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100" }, "Explore →")
+                ])
+              ];
+            }
+          }),
+          _: 2
+        }, _parent));
+      });
+      _push(`<!--]--></div></div></section><section class="section bg-brand-mist"><div class="container-x">`);
+      _push(ssrRenderComponent(_component_SectionHead, {
+        eyebrow: "How it works",
+        title: "From enquiry to response"
+      }, null, _parent));
+      _push(`<div class="grid gap-8 md:grid-cols-4"><!--[-->`);
+      ssrRenderList(steps, (st, i) => {
+        _push(`<div${ssrRenderAttrs(mergeProps({
+          key: st[0],
+          class: "relative border-t-4 border-brand pt-6"
+        }, ssrGetDirectiveProps(_ctx, _directive_reveal, i * 100)))}><span class="font-display text-6xl font-bold text-brand/15">0${ssrInterpolate(i + 1)}</span><h3 class="mt-2 text-lg">${ssrInterpolate(st[0])}</h3><p class="mt-2 text-sm">${ssrInterpolate(st[1])}</p></div>`);
+      });
+      _push(`<!--]--></div></div></section><section class="section"><div class="container-x">`);
+      _push(ssrRenderComponent(_component_SectionHead, {
+        center: "",
+        eyebrow: "Our OEM & Technology Partners",
+        title: "Connecting you with the right technology",
+        text: "We work with relevant OEMs and technology partners to connect clients with equipment and specialised solutions suited to their applications."
+      }, null, _parent));
+      _push(`<div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6"><!--[-->`);
+      ssrRenderList(("partners" in _ctx ? _ctx.partners : unref(partners)).slice(0, 6), (p, i) => {
+        _push(`<div${ssrRenderAttrs(mergeProps({
+          key: p.name,
+          class: "grid h-28 place-items-center border border-slate-200 p-4"
+        }, ssrGetDirectiveProps(_ctx, _directive_reveal, i * 70)))}><img${ssrRenderAttr("src", p.image)}${ssrRenderAttr("alt", p.name)} loading="lazy" class="max-h-full max-w-full object-contain"></div>`);
+      });
+      _push(`<!--]--></div><div class="mt-8 text-center">`);
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/partners",
+        class: "btn btn-outline"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`See more`);
+          } else {
+            return [
+              createTextVNode("See more")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div></div></section><section class="section bg-brand-mist"><div class="container-x"><div class="mb-14 flex flex-wrap items-end justify-between gap-4">`);
+      _push(ssrRenderComponent(_component_SectionHead, {
+        class: "!mb-0",
+        eyebrow: "Projects",
+        title: "Real work. Verified results."
+      }, null, _parent));
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/projects",
+        class: "btn btn-outline"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`All Projects →`);
+          } else {
+            return [
+              createTextVNode("All Projects →")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div><div class="grid gap-6 md:grid-cols-3"><!--[-->`);
+      ssrRenderList(3, (n) => {
+        _push(ssrRenderComponent(_component_NuxtLink, mergeProps({
+          key: n,
+          to: "/projects",
+          class: "group overflow-hidden bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+        }, ssrGetDirectiveProps(_ctx, _directive_reveal, n * 90)), {
+          default: withCtx((_, _push2, _parent2, _scopeId) => {
+            if (_push2) {
+              _push2(ssrRenderComponent(_component_AppImage, {
+                class: "h-56",
+                hint: "Approved project photo"
+              }, null, _parent2, _scopeId));
+              _push2(`<div class="p-6"${_scopeId}><p class="text-xs font-semibold uppercase tracking-widest text-brand-red"${_scopeId}>Industry / application</p><h3 class="mt-2 text-lg"${_scopeId}>Project title (pending approval)</h3></div>`);
+            } else {
+              return [
+                createVNode(_component_AppImage, {
+                  class: "h-56",
+                  hint: "Approved project photo"
+                }),
+                createVNode("div", { class: "p-6" }, [
+                  createVNode("p", { class: "text-xs font-semibold uppercase tracking-widest text-brand-red" }, "Industry / application"),
+                  createVNode("h3", { class: "mt-2 text-lg" }, "Project title (pending approval)")
+                ])
+              ];
+            }
+          }),
+          _: 2
+        }, _parent));
+      });
+      _push(`<!--]--></div></div></section><section class="section"><div class="container-x"><div class="mb-14 flex flex-wrap items-end justify-between gap-4">`);
+      _push(ssrRenderComponent(_component_SectionHead, {
+        class: "!mb-0",
+        eyebrow: "Insights",
+        title: "Technical knowledge for better decisions"
+      }, null, _parent));
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/insights",
+        class: "btn btn-outline"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`All Insights →`);
+          } else {
+            return [
+              createTextVNode("All Insights →")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div><div class="grid gap-6 md:grid-cols-3"><!--[-->`);
+      ssrRenderList(("insights" in _ctx ? _ctx.insights : unref(insights)).slice(0, 3), (a, i) => {
+        _push(ssrRenderComponent(_component_NuxtLink, mergeProps({
+          key: a.title,
+          to: "/insights",
+          class: "group border border-slate-200 p-7 transition hover:-translate-y-1 hover:border-brand hover:shadow-xl"
+        }, ssrGetDirectiveProps(_ctx, _directive_reveal, i * 90)), {
+          default: withCtx((_, _push2, _parent2, _scopeId) => {
+            if (_push2) {
+              _push2(`<p class="text-xs font-semibold uppercase tracking-widest text-brand-red"${_scopeId}>${ssrInterpolate(a.cat)}</p><h3 class="mt-4 font-display text-3xl font-semibold uppercase leading-none transition group-hover:text-brand"${_scopeId}>${ssrInterpolate(a.title)}</h3><span class="mt-6 inline-block text-sm font-semibold text-brand"${_scopeId}>Read More →</span>`);
+            } else {
+              return [
+                createVNode("p", { class: "text-xs font-semibold uppercase tracking-widest text-brand-red" }, toDisplayString(a.cat), 1),
+                createVNode("h3", { class: "mt-4 font-display text-3xl font-semibold uppercase leading-none transition group-hover:text-brand" }, toDisplayString(a.title), 1),
+                createVNode("span", { class: "mt-6 inline-block text-sm font-semibold text-brand" }, "Read More →")
+              ];
+            }
+          }),
+          _: 2
+        }, _parent));
+      });
+      _push(`<!--]--></div></div></section>`);
+      _push(ssrRenderComponent(_component_CtaBand, null, null, _parent));
+      _push(`</div>`);
+    };
+  }
+});
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/index.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+export {
+  _sfc_main as default
+};
+//# sourceMappingURL=index-De__s8Wn.js.map
