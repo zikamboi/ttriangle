@@ -3,6 +3,13 @@ useHead({ title: 'T Triangle Limited | Engineering & Technical Solutions' })
 const heroImage = '' // e.g. '/images/hero.jpg' (place the file in /public/images)
 const active = ref(0)
 const loop = [...services, ...services]
+const marketImages: Record<string, string> = {
+  'Oil & Gas': '/images/service-photos/oil.webp',
+  'Energy & Power': '/images/service-photos/energy.webp',
+  'Industrial & Manufacturing': '/images/service-photos/industrial.webp',
+  'Marine & Offshore': '/images/service-photos/marine.webp',
+  'Construction & Process Industries': '/images/service-photos/flange2.webp'
+}
 const clientImages = [
   { src: '/clients/ap.webp', alt: 'AP' },
   { src: '/clients/cg.webp', alt: 'CG' },
@@ -143,7 +150,7 @@ const steps = [
         <SectionHead eyebrow="Our Market Focus" title="Industries we serve" text="Industrial environments where equipment reliability, safe work practices and dependable technical support matter." />
         <div class="flex flex-col gap-3 lg:h-[28rem] lg:flex-row">
           <NuxtLink v-for="(m, i) in markets" :key="m" to="/about#market-focus" class="group relative h-52 overflow-hidden lg:h-auto lg:flex-1 lg:transition-all lg:duration-700 lg:hover:flex-[2.4]">
-            <div class="absolute inset-0"><AppImage class="h-full w-full" :hint="`Image: ${m}`" /></div>
+            <div class="absolute inset-0"><AppImage class="h-full w-full" :src="marketImages[m]" :alt="m" /></div>
             <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/50 to-transparent"></div>
             <div class="absolute bottom-0 p-6 text-white">
               <span class="font-display text-lg font-bold text-brand-red">0{{ i + 1 }}</span>
