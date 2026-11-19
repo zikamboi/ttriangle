@@ -4221,7 +4221,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "79a9f090-62b1-411f-bae3-c11d4dbb8540",
+    "buildId": "3fdf5197-5aec-455d-8f6e-69feaeaf04bb",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -4727,19 +4727,19 @@ const assets = {
     "size": 2294,
     "path": "../public/clients/ap.webp"
   },
-  "/clients/chevron.webp": {
-    "type": "image/webp",
-    "etag": "\"d82-HlSylk4KZ3hj68V0zIiY67hef6M\"",
-    "mtime": "2026-11-19T11:05:46.310Z",
-    "size": 3458,
-    "path": "../public/clients/chevron.webp"
-  },
   "/clients/cg.webp": {
     "type": "image/webp",
     "etag": "\"1558-F8qi7x+l3uxHyB+thKF3QesmosY\"",
     "mtime": "2026-11-19T11:13:29.298Z",
     "size": 5464,
     "path": "../public/clients/cg.webp"
+  },
+  "/clients/chevron.webp": {
+    "type": "image/webp",
+    "etag": "\"d82-HlSylk4KZ3hj68V0zIiY67hef6M\"",
+    "mtime": "2026-11-19T11:05:46.310Z",
+    "size": 3458,
+    "path": "../public/clients/chevron.webp"
   },
   "/clients/daewoo.webp": {
     "type": "image/webp",
@@ -4748,19 +4748,19 @@ const assets = {
     "size": 3140,
     "path": "../public/clients/daewoo.webp"
   },
-  "/clients/dangote.webp": {
-    "type": "image/webp",
-    "etag": "\"d0e-s9Lqw4ldNouQ+cvjU5pqoLuL5qs\"",
-    "mtime": "2026-11-19T11:05:57.008Z",
-    "size": 3342,
-    "path": "../public/clients/dangote.webp"
-  },
   "/clients/daystar.webp": {
     "type": "image/webp",
     "etag": "\"9bc-npDYF+DhD4qvpuDostziuFcEypM\"",
     "mtime": "2026-11-19T10:58:22.685Z",
     "size": 2492,
     "path": "../public/clients/daystar.webp"
+  },
+  "/clients/dangote.webp": {
+    "type": "image/webp",
+    "etag": "\"d0e-s9Lqw4ldNouQ+cvjU5pqoLuL5qs\"",
+    "mtime": "2026-11-19T11:05:57.008Z",
+    "size": 3342,
+    "path": "../public/clients/dangote.webp"
   },
   "/clients/fmn.webp": {
     "type": "image/webp",
@@ -4769,19 +4769,19 @@ const assets = {
     "size": 3456,
     "path": "../public/clients/fmn.webp"
   },
+  "/clients/pace.webp": {
+    "type": "image/webp",
+    "etag": "\"c42-T/nK+KsmgAqDc27l3rHTzhdMNIE\"",
+    "mtime": "2026-11-19T10:45:14.694Z",
+    "size": 3138,
+    "path": "../public/clients/pace.webp"
+  },
   "/clients/heritage.webp": {
     "type": "image/webp",
     "etag": "\"cda-KA2I/krZ+vpUKEZqbJRiIMfFdEI\"",
     "mtime": "2026-11-19T11:01:59.291Z",
     "size": 3290,
     "path": "../public/clients/heritage.webp"
-  },
-  "/clients/namdock.webp": {
-    "type": "image/webp",
-    "etag": "\"b9e-MBjS4VJ0rquaLwYBymljTrlQm8s\"",
-    "mtime": "2026-11-19T10:58:29.294Z",
-    "size": 2974,
-    "path": "../public/clients/namdock.webp"
   },
   "/clients/midwestern.webp": {
     "type": "image/webp",
@@ -4790,26 +4790,19 @@ const assets = {
     "size": 2300,
     "path": "../public/clients/midwestern.webp"
   },
-  "/clients/nlng.webp": {
-    "type": "image/webp",
-    "etag": "\"bac-kq3K6kT1Lgz1edTMaRk7gML+dH0\"",
-    "mtime": "2026-11-19T11:01:48.693Z",
-    "size": 2988,
-    "path": "../public/clients/nlng.webp"
-  },
-  "/clients/pace.webp": {
-    "type": "image/webp",
-    "etag": "\"c42-T/nK+KsmgAqDc27l3rHTzhdMNIE\"",
-    "mtime": "2026-11-19T10:45:14.694Z",
-    "size": 3138,
-    "path": "../public/clients/pace.webp"
-  },
   "/clients/seplat.webp": {
     "type": "image/webp",
     "etag": "\"980-T2+i3K8/lrOLPV5Hk820aXqdISw\"",
     "mtime": "2026-11-19T11:01:43.043Z",
     "size": 2432,
     "path": "../public/clients/seplat.webp"
+  },
+  "/clients/namdock.webp": {
+    "type": "image/webp",
+    "etag": "\"b9e-MBjS4VJ0rquaLwYBymljTrlQm8s\"",
+    "mtime": "2026-11-19T10:58:29.294Z",
+    "size": 2974,
+    "path": "../public/clients/namdock.webp"
   },
   "/clients/shell.webp": {
     "type": "image/webp",
@@ -4818,19 +4811,19 @@ const assets = {
     "size": 2840,
     "path": "../public/clients/shell.webp"
   },
-  "/clients/spie.webp": {
-    "type": "image/webp",
-    "etag": "\"a64-mwNVm/8Hjwh08yM77tChsdUHoto\"",
-    "mtime": "2026-11-19T11:02:03.437Z",
-    "size": 2660,
-    "path": "../public/clients/spie.webp"
-  },
   "/clients/stac.webp": {
     "type": "image/webp",
     "etag": "\"770-Mu2MyUoNoxOgvf2XjD66GJYU51Q\"",
     "mtime": "2026-11-19T11:01:52.757Z",
     "size": 1904,
     "path": "../public/clients/stac.webp"
+  },
+  "/clients/spie.webp": {
+    "type": "image/webp",
+    "etag": "\"a64-mwNVm/8Hjwh08yM77tChsdUHoto\"",
+    "mtime": "2026-11-19T11:02:03.437Z",
+    "size": 2660,
+    "path": "../public/clients/spie.webp"
   },
   "/clients/waltersmith.webp": {
     "type": "image/webp",
@@ -4839,19 +4832,19 @@ const assets = {
     "size": 3124,
     "path": "../public/clients/waltersmith.webp"
   },
-  "/images/bolt.webp": {
-    "type": "image/webp",
-    "etag": "\"226e-uqVHRtRNKjZX5kRdp2EGi0ySwdE\"",
-    "mtime": "2026-11-19T09:22:08.907Z",
-    "size": 8814,
-    "path": "../public/images/bolt.webp"
-  },
   "/images/Compresd2.webp": {
     "type": "image/webp",
     "etag": "\"192d8-kZg+xHO2luWJcvKRDrITqwcE0Sw\"",
     "mtime": "2026-11-19T09:17:53.069Z",
     "size": 103128,
     "path": "../public/images/Compresd2.webp"
+  },
+  "/images/bolt.webp": {
+    "type": "image/webp",
+    "etag": "\"226e-uqVHRtRNKjZX5kRdp2EGi0ySwdE\"",
+    "mtime": "2026-11-19T09:22:08.907Z",
+    "size": 8814,
+    "path": "../public/images/bolt.webp"
   },
   "/images/flange.webp": {
     "type": "image/webp",
@@ -4860,19 +4853,19 @@ const assets = {
     "size": 350508,
     "path": "../public/images/flange.webp"
   },
-  "/images/fluid2.webp": {
-    "type": "image/webp",
-    "etag": "\"49022-fgpEtCNkPYxjxiLnx01trrZHZ+U\"",
-    "mtime": "2026-11-19T09:12:46.895Z",
-    "size": 299042,
-    "path": "../public/images/fluid2.webp"
-  },
   "/images/oems1.webp": {
     "type": "image/webp",
     "etag": "\"e62-dCxKFE/d9i5VguynN9hjXkzPPSA\"",
     "mtime": "2026-11-16T20:16:10.161Z",
     "size": 3682,
     "path": "../public/images/oems1.webp"
+  },
+  "/images/fluid2.webp": {
+    "type": "image/webp",
+    "etag": "\"49022-fgpEtCNkPYxjxiLnx01trrZHZ+U\"",
+    "mtime": "2026-11-19T09:12:46.895Z",
+    "size": 299042,
+    "path": "../public/images/fluid2.webp"
   },
   "/images/oems10.webp": {
     "type": "image/webp",
@@ -4888,26 +4881,12 @@ const assets = {
     "size": 2882,
     "path": "../public/images/oems11.webp"
   },
-  "/images/oems12.webp": {
+  "/clients/nlng.webp": {
     "type": "image/webp",
-    "etag": "\"9fe-Z4UN5BWz6egFH3v889l5XZYgoFg\"",
-    "mtime": "2026-11-16T19:47:07.358Z",
-    "size": 2558,
-    "path": "../public/images/oems12.webp"
-  },
-  "/images/oems13.webp": {
-    "type": "image/webp",
-    "etag": "\"e50-Km957R1kXCDuNlSO8/G1264No6o\"",
-    "mtime": "2026-11-16T20:04:45.276Z",
-    "size": 3664,
-    "path": "../public/images/oems13.webp"
-  },
-  "/images/oems14.webp": {
-    "type": "image/webp",
-    "etag": "\"b86-FLy/DmY0YPggcyiXU5HII8wrkts\"",
-    "mtime": "2026-11-16T20:04:43.290Z",
-    "size": 2950,
-    "path": "../public/images/oems14.webp"
+    "etag": "\"bac-kq3K6kT1Lgz1edTMaRk7gML+dH0\"",
+    "mtime": "2026-11-19T11:01:48.693Z",
+    "size": 2988,
+    "path": "../public/clients/nlng.webp"
   },
   "/images/oems15.webp": {
     "type": "image/webp",
@@ -4930,6 +4909,20 @@ const assets = {
     "size": 3042,
     "path": "../public/images/oems17.webp"
   },
+  "/images/oems12.webp": {
+    "type": "image/webp",
+    "etag": "\"9fe-Z4UN5BWz6egFH3v889l5XZYgoFg\"",
+    "mtime": "2026-11-16T19:47:07.358Z",
+    "size": 2558,
+    "path": "../public/images/oems12.webp"
+  },
+  "/images/oems13.webp": {
+    "type": "image/webp",
+    "etag": "\"e50-Km957R1kXCDuNlSO8/G1264No6o\"",
+    "mtime": "2026-11-16T20:04:45.276Z",
+    "size": 3664,
+    "path": "../public/images/oems13.webp"
+  },
   "/images/oems18.webp": {
     "type": "image/webp",
     "etag": "\"8ac-8WtkHZXPqBKrSUjmEww2qoH/Ods\"",
@@ -4937,12 +4930,12 @@ const assets = {
     "size": 2220,
     "path": "../public/images/oems18.webp"
   },
-  "/images/oems2.webp": {
+  "/images/oems14.webp": {
     "type": "image/webp",
-    "etag": "\"bca-m2ldkp5baEMbkIZ37xqalNdpUwM\"",
-    "mtime": "2026-11-16T20:16:09.404Z",
-    "size": 3018,
-    "path": "../public/images/oems2.webp"
+    "etag": "\"b86-FLy/DmY0YPggcyiXU5HII8wrkts\"",
+    "mtime": "2026-11-16T20:04:43.290Z",
+    "size": 2950,
+    "path": "../public/images/oems14.webp"
   },
   "/images/oems19.webp": {
     "type": "image/webp",
@@ -4951,13 +4944,6 @@ const assets = {
     "size": 3058,
     "path": "../public/images/oems19.webp"
   },
-  "/images/oems20.webp": {
-    "type": "image/webp",
-    "etag": "\"e6e-hi3ItnudUGj7+BQ3Q8LVlaDBf5w\"",
-    "mtime": "2026-11-16T19:47:02.016Z",
-    "size": 3694,
-    "path": "../public/images/oems20.webp"
-  },
   "/images/oems21.webp": {
     "type": "image/webp",
     "etag": "\"ba2-oX6wqka9BcqJ7GQGAMj2oemVYRc\"",
@@ -4965,19 +4951,12 @@ const assets = {
     "size": 2978,
     "path": "../public/images/oems21.webp"
   },
-  "/images/oems22.webp": {
+  "/images/oems20.webp": {
     "type": "image/webp",
-    "etag": "\"36a-kQ9GBM2icq/8DJr/FWMPvNBzkZA\"",
-    "mtime": "2026-11-16T19:46:54.872Z",
-    "size": 874,
-    "path": "../public/images/oems22.webp"
-  },
-  "/images/oems3.webp": {
-    "type": "image/webp",
-    "etag": "\"e50-IPaT52YJPa7zX5TlTwTNrZrRk4M\"",
-    "mtime": "2026-11-16T20:20:28.019Z",
-    "size": 3664,
-    "path": "../public/images/oems3.webp"
+    "etag": "\"e6e-hi3ItnudUGj7+BQ3Q8LVlaDBf5w\"",
+    "mtime": "2026-11-16T19:47:02.016Z",
+    "size": 3694,
+    "path": "../public/images/oems20.webp"
   },
   "/images/oems23.webp": {
     "type": "image/webp",
@@ -4986,19 +4965,26 @@ const assets = {
     "size": 2180,
     "path": "../public/images/oems23.webp"
   },
-  "/images/oems5.webp": {
-    "type": "image/webp",
-    "etag": "\"d58-gsMMtHTmcdOCzTQA15pycZagI60\"",
-    "mtime": "2026-11-16T20:04:35.479Z",
-    "size": 3416,
-    "path": "../public/images/oems5.webp"
-  },
   "/images/oems4.webp": {
     "type": "image/webp",
     "etag": "\"aca-wbNVP6uA3Uuq6f9jQdQhgNQZL6c\"",
     "mtime": "2026-11-16T20:04:47.182Z",
     "size": 2762,
     "path": "../public/images/oems4.webp"
+  },
+  "/images/oems3.webp": {
+    "type": "image/webp",
+    "etag": "\"e50-IPaT52YJPa7zX5TlTwTNrZrRk4M\"",
+    "mtime": "2026-11-16T20:20:28.019Z",
+    "size": 3664,
+    "path": "../public/images/oems3.webp"
+  },
+  "/images/oems5.webp": {
+    "type": "image/webp",
+    "etag": "\"d58-gsMMtHTmcdOCzTQA15pycZagI60\"",
+    "mtime": "2026-11-16T20:04:35.479Z",
+    "size": 3416,
+    "path": "../public/images/oems5.webp"
   },
   "/images/oems6.webp": {
     "type": "image/webp",
@@ -5014,6 +5000,13 @@ const assets = {
     "size": 3692,
     "path": "../public/images/oems7.webp"
   },
+  "/images/oems9.webp": {
+    "type": "image/webp",
+    "etag": "\"ad8-pDxGArADwosLrNI6y2/1NQHJdVo\"",
+    "mtime": "2026-11-16T20:04:52.541Z",
+    "size": 2776,
+    "path": "../public/images/oems9.webp"
+  },
   "/images/oems8.webp": {
     "type": "image/webp",
     "etag": "\"b02-KB+H0VeoqbadrLRXR3tBf6KsEwo\"",
@@ -5021,12 +5014,12 @@ const assets = {
     "size": 2818,
     "path": "../public/images/oems8.webp"
   },
-  "/images/oems9.webp": {
+  "/images/oems2.webp": {
     "type": "image/webp",
-    "etag": "\"ad8-pDxGArADwosLrNI6y2/1NQHJdVo\"",
-    "mtime": "2026-11-16T20:04:52.541Z",
-    "size": 2776,
-    "path": "../public/images/oems9.webp"
+    "etag": "\"bca-m2ldkp5baEMbkIZ37xqalNdpUwM\"",
+    "mtime": "2026-11-16T20:16:09.404Z",
+    "size": 3018,
+    "path": "../public/images/oems2.webp"
   },
   "/images/PressureTest.webp": {
     "type": "image/webp",
@@ -5035,19 +5028,26 @@ const assets = {
     "size": 95186,
     "path": "../public/images/PressureTest.webp"
   },
-  "/images/safe-isolation.webp": {
-    "type": "image/webp",
-    "etag": "\"2d6d2-BuyzgXQ9S6QlxsyF8F+RfVPXO8s\"",
-    "mtime": "2026-11-13T22:55:47.557Z",
-    "size": 186066,
-    "path": "../public/images/safe-isolation.webp"
-  },
   "/images/oil.webp": {
     "type": "image/webp",
     "etag": "\"5cc20-ywRgej1a2Xe36DaxuQMTF11ty0Q\"",
     "mtime": "2026-11-13T10:12:25.998Z",
     "size": 379936,
     "path": "../public/images/oil.webp"
+  },
+  "/images/oems22.webp": {
+    "type": "image/webp",
+    "etag": "\"36a-kQ9GBM2icq/8DJr/FWMPvNBzkZA\"",
+    "mtime": "2026-11-16T19:46:54.872Z",
+    "size": 874,
+    "path": "../public/images/oems22.webp"
+  },
+  "/images/safe-isolation.webp": {
+    "type": "image/webp",
+    "etag": "\"2d6d2-BuyzgXQ9S6QlxsyF8F+RfVPXO8s\"",
+    "mtime": "2026-11-13T22:55:47.557Z",
+    "size": 186066,
+    "path": "../public/images/safe-isolation.webp"
   },
   "/images/safesolution.webp": {
     "type": "image/webp",
@@ -5063,6 +5063,13 @@ const assets = {
     "size": 230614,
     "path": "../public/images/service-1.webp"
   },
+  "/_nuxt/1zzdtxUJ.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3586-mwBjZSeODt+s5LwQ5T5WvSiyJXQ\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
+    "size": 13702,
+    "path": "../public/_nuxt/1zzdtxUJ.js"
+  },
   "/images/touchpoint3.webp": {
     "type": "image/webp",
     "etag": "\"2d6e6-g+TpFC8FM9OPgrrV/EBHVR/Ib2Y\"",
@@ -5077,69 +5084,6 @@ const assets = {
     "size": 42322,
     "path": "../public/images/TTlogo.jpeg"
   },
-  "/_nuxt/B4OTyBMQ.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"3db-XFp/cn/TyZLAIplUvKTiRT4mxzs\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 987,
-    "path": "../public/_nuxt/B4OTyBMQ.js"
-  },
-  "/_nuxt/BaP33Bcc.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"476-CFNue5BF3OjkcS+p8OfV6Na9iVw\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 1142,
-    "path": "../public/_nuxt/BaP33Bcc.js"
-  },
-  "/_nuxt/bdIipyTp.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"346-TNeTn+xnYTR9/eWbzna3dIQZpeM\"",
-    "mtime": "2026-11-19T11:57:21.391Z",
-    "size": 838,
-    "path": "../public/_nuxt/bdIipyTp.js"
-  },
-  "/_nuxt/BEVdQted.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"680-EEIbXlGexhHDRfQnIy0wIjG7bgU\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 1664,
-    "path": "../public/_nuxt/BEVdQted.js"
-  },
-  "/_nuxt/BYisGSjH.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"241-sN3DfsuBtVNVnDw6TObeLJO9Dgk\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 577,
-    "path": "../public/_nuxt/BYisGSjH.js"
-  },
-  "/_nuxt/B_dQD2Ob.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"231-APkrFIOIFts4ovfF8c6PZYiyzSE\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 561,
-    "path": "../public/_nuxt/B_dQD2Ob.js"
-  },
-  "/_nuxt/C28MDqct.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"5b5-GUpmznwHeA/d+0DBVbXML72E++U\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 1461,
-    "path": "../public/_nuxt/C28MDqct.js"
-  },
-  "/_nuxt/C4zkUgDS.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"256b-Y901rcamR3dhafqa2yu0LM0YVHI\"",
-    "mtime": "2026-11-19T11:57:21.405Z",
-    "size": 9579,
-    "path": "../public/_nuxt/C4zkUgDS.js"
-  },
-  "/_nuxt/CAv1VLpr.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"3586-CxSCBXeov4+7drxX4zRpT3ORihk\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 13702,
-    "path": "../public/_nuxt/CAv1VLpr.js"
-  },
   "/images/valve2.webp": {
     "type": "image/webp",
     "etag": "\"45d78-ViMYzRGjYHSakfBYoQQCXvwcyes\"",
@@ -5147,173 +5091,264 @@ const assets = {
     "size": 286072,
     "path": "../public/images/valve2.webp"
   },
-  "/_nuxt/CES0KqyB.js": {
+  "/_nuxt/92W0H4ng.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1237-eWxWs1usbvPutrfPw9MEoQWMUr4\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 4663,
-    "path": "../public/_nuxt/CES0KqyB.js"
+    "etag": "\"476-5k0Nm17z9MxdbVOo2tKVTcIC5kc\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
+    "size": 1142,
+    "path": "../public/_nuxt/92W0H4ng.js"
   },
-  "/_nuxt/CNeBd5vP.js": {
+  "/_nuxt/B4BnEsDh.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"68c-sC6u5AmUMa2vlkq5eey0zYTw1fo\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 1676,
-    "path": "../public/_nuxt/CNeBd5vP.js"
+    "etag": "\"5b5-qQjMSAE8/Xeqj85eWMXJr+enUHk\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
+    "size": 1461,
+    "path": "../public/_nuxt/B4BnEsDh.js"
   },
-  "/_nuxt/CnkpNBjt.js": {
+  "/_nuxt/B7dzG72u.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"4a2-4Nn7oSjUjjQHFHEIeZEgStOhEuY\"",
-    "mtime": "2026-11-19T11:57:21.405Z",
-    "size": 1186,
-    "path": "../public/_nuxt/CnkpNBjt.js"
-  },
-  "/_nuxt/CWwZldTE.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"d40-hYQNYurREVjmDiwPMvOVcRawMEc\"",
-    "mtime": "2026-11-19T11:57:21.403Z",
+    "etag": "\"d40-5xarlfWsz9ietYOOwAi0sx21nQo\"",
+    "mtime": "2026-11-19T13:29:46.607Z",
     "size": 3392,
-    "path": "../public/_nuxt/CWwZldTE.js"
+    "path": "../public/_nuxt/B7dzG72u.js"
   },
-  "/_nuxt/D44DcgaH.js": {
+  "/_nuxt/BNIpKdJR.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"92d-b2z5VtmQbLbbZSvIa16DMrliNG8\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 2349,
-    "path": "../public/_nuxt/D44DcgaH.js"
+    "etag": "\"241-qVF7C9vWljWgnJJyQwrHCzzb1Sc\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 577,
+    "path": "../public/_nuxt/BNIpKdJR.js"
   },
-  "/_nuxt/D6pE8dtK.js": {
+  "/_nuxt/BFzByGRz.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"4b0-640k+6fMzLO9Gb9AMqMRHRcl8y4\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
+    "etag": "\"3cf-K9Y4q0fGPo3b1ExmH96inlJD2OE\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
+    "size": 975,
+    "path": "../public/_nuxt/BFzByGRz.js"
+  },
+  "/_nuxt/Bap4pOz3.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"270d-Ei/6LtCggwxDYXsweVTsKzZOUR4\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 9997,
+    "path": "../public/_nuxt/Bap4pOz3.js"
+  },
+  "/_nuxt/BkExmTYF.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"e97-MgSv8dG93RWlbMArNhI5vXjKFDw\"",
+    "mtime": "2026-11-19T13:29:46.471Z",
+    "size": 3735,
+    "path": "../public/_nuxt/BkExmTYF.js"
+  },
+  "/_nuxt/BWHNN_nq.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"4b6-Lz6dJmMYvy+VxFF56886eZYorjg\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
+    "size": 1206,
+    "path": "../public/_nuxt/BWHNN_nq.js"
+  },
+  "/_nuxt/C6Fd61Fe.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"4b0-f2GUhc3CImvM+kRgzn6nTQKUVP0\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
     "size": 1200,
-    "path": "../public/_nuxt/D6pE8dtK.js"
+    "path": "../public/_nuxt/C6Fd61Fe.js"
   },
-  "/_nuxt/D83VP3aN.js": {
+  "/_nuxt/C3R70Nc6.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"d30-7I1aO7AJ5S1kZgwj897hlfVXCMw\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 3376,
-    "path": "../public/_nuxt/D83VP3aN.js"
-  },
-  "/_nuxt/DB4DrZdZ.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"35d-auBPnTg1foR/PwORJiLckCulvwk\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 861,
-    "path": "../public/_nuxt/DB4DrZdZ.js"
-  },
-  "/_nuxt/DbRXyNhF.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"f7-rxdJokyz9RB0Tz+nrQbtTyZ/Az0\"",
-    "mtime": "2026-11-19T11:57:21.405Z",
-    "size": 247,
-    "path": "../public/_nuxt/DbRXyNhF.js"
-  },
-  "/_nuxt/Dh4hMEV1.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"232-84krgmWSf2BLQJ9G7fmnXYDr+ro\"",
-    "mtime": "2026-11-19T11:57:21.413Z",
-    "size": 562,
-    "path": "../public/_nuxt/Dh4hMEV1.js"
-  },
-  "/_nuxt/DIN0S4qa.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"603-OD647wGcuvIW0deQGGzA0gnCz5Y\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
+    "etag": "\"603-jyXANo2SlWu61u9Bvdyz5C7zofI\"",
+    "mtime": "2026-11-19T13:29:46.475Z",
     "size": 1539,
-    "path": "../public/_nuxt/DIN0S4qa.js"
+    "path": "../public/_nuxt/C3R70Nc6.js"
+  },
+  "/_nuxt/Cee9BO7P.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"4e9-SOGZnNuMNg7rWE+o+c5Wa5k+3ds\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 1257,
+    "path": "../public/_nuxt/Cee9BO7P.js"
+  },
+  "/_nuxt/CoUUvdsg.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"1237-U3oSKgGbwuejWHdGqBZUz7WYDgk\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 4663,
+    "path": "../public/_nuxt/CoUUvdsg.js"
+  },
+  "/_nuxt/ClSjkBTQ.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"d30-O2izengih8/rrOL+rZOwumbA314\"",
+    "mtime": "2026-11-19T13:29:46.475Z",
+    "size": 3376,
+    "path": "../public/_nuxt/ClSjkBTQ.js"
+  },
+  "/_nuxt/CWnzCApT.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"1c80-lEFSyH9h4j7SXsDpqKxEABOHE+Y\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 7296,
+    "path": "../public/_nuxt/CWnzCApT.js"
+  },
+  "/_nuxt/D-6iRj8b.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"35d-pd2ac+e7+WG3rlgVe/0xy4/6haA\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
+    "size": 861,
+    "path": "../public/_nuxt/D-6iRj8b.js"
+  },
+  "/_nuxt/DaTm8GS8.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"232-slGYMyjsT7vUSsVomPZAUiogh2Y\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 562,
+    "path": "../public/_nuxt/DaTm8GS8.js"
+  },
+  "/_nuxt/DE70ozp5.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"231-YBFlW7u+D64bmXOpkcvFkz4E7cU\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 561,
+    "path": "../public/_nuxt/DE70ozp5.js"
+  },
+  "/_nuxt/D8U2zplz.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"9cf-CMYa5MwJ9/Jq5dsM1kunaevAWdc\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
+    "size": 2511,
+    "path": "../public/_nuxt/D8U2zplz.js"
+  },
+  "/_nuxt/D8Ec1x9K.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"346-BLLbpldztWlVaDIVsuzKyc+FDmM\"",
+    "mtime": "2026-11-19T13:29:46.607Z",
+    "size": 838,
+    "path": "../public/_nuxt/D8Ec1x9K.js"
+  },
+  "/_nuxt/DLpbW6jq.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3db-n9dszPOaaQaUis3vPfB6/wqyM7U\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 987,
+    "path": "../public/_nuxt/DLpbW6jq.js"
+  },
+  "/_nuxt/DI4qgy7S.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"330c6-20VKY6LXWAoSfVUZN65BBDROnns\"",
+    "mtime": "2026-11-19T13:29:46.471Z",
+    "size": 209094,
+    "path": "../public/_nuxt/DI4qgy7S.js"
+  },
+  "/_nuxt/DPEEWwsN.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"37a-sjn68XuhF75BGVPfiH2gqQQ15zo\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 890,
+    "path": "../public/_nuxt/DPEEWwsN.js"
+  },
+  "/_nuxt/DNSUdBmw.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"680-MdbCTXOcqTc0z+tgqKFNXl2pbOM\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 1664,
+    "path": "../public/_nuxt/DNSUdBmw.js"
+  },
+  "/_nuxt/f5D54HSr.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"f7-umJye9RmnT1clng29DinzZ1UJOk\"",
+    "mtime": "2026-11-19T13:29:46.481Z",
+    "size": 247,
+    "path": "../public/_nuxt/f5D54HSr.js"
+  },
+  "/_nuxt/DWnNY5yO.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"68c-Ob7bq2JLCc1VCy4WKXTXz5rjjds\"",
+    "mtime": "2026-11-19T13:29:46.478Z",
+    "size": 1676,
+    "path": "../public/_nuxt/DWnNY5yO.js"
+  },
+  "/_nuxt/index.BmiIV4uw.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"19b-ve7uHKt43b7Iw9xjJAYJIfqH2ZY\"",
+    "mtime": "2026-11-19T13:29:46.471Z",
+    "size": 411,
+    "path": "../public/_nuxt/index.BmiIV4uw.css"
   },
   "/_nuxt/error-404.DL_4WIao.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"dca-KnjyV0UbpsrliiJzZx69defY74k\"",
-    "mtime": "2026-11-19T11:57:21.403Z",
+    "mtime": "2026-11-19T13:29:46.488Z",
     "size": 3530,
     "path": "../public/_nuxt/error-404.DL_4WIao.css"
   },
   "/_nuxt/error-500.I1Dtv2V5.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"75a-vEGyJqldBVJrnMfcLsrGaHcxYl0\"",
-    "mtime": "2026-11-19T11:57:21.402Z",
+    "mtime": "2026-11-19T13:29:46.475Z",
     "size": 1882,
     "path": "../public/_nuxt/error-500.I1Dtv2V5.css"
   },
-  "/_nuxt/index.BmiIV4uw.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"19b-ve7uHKt43b7Iw9xjJAYJIfqH2ZY\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 411,
-    "path": "../public/_nuxt/index.BmiIV4uw.css"
-  },
-  "/_nuxt/j8Kx0-hB.js": {
+  "/_nuxt/O2NW3SxJ.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1c80-yvyyJV+MbrPc2JZD3RkQKQheUXU\"",
-    "mtime": "2026-11-19T11:57:21.405Z",
-    "size": 7296,
-    "path": "../public/_nuxt/j8Kx0-hB.js"
+    "etag": "\"4a2-/B5+RssF+ri2m6qa67DaRWUqTio\"",
+    "mtime": "2026-11-19T13:29:46.537Z",
+    "size": 1186,
+    "path": "../public/_nuxt/O2NW3SxJ.js"
   },
-  "/_nuxt/liZDK-pw.js": {
+  "/_nuxt/YfsB3YMR.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"60c-EJUVORS2fNsjXRZrBjdsNfIcgQs\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
+    "etag": "\"60c-fY/SnDy78GxRwwt08wBpC/1vzaQ\"",
+    "mtime": "2026-11-19T13:29:46.475Z",
     "size": 1548,
-    "path": "../public/_nuxt/liZDK-pw.js"
+    "path": "../public/_nuxt/YfsB3YMR.js"
   },
-  "/_nuxt/KhghP6We.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"330c6-PgsTn6openqs2QYX/yvTg/5UJEw\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 209094,
-    "path": "../public/_nuxt/KhghP6We.js"
-  },
-  "/_nuxt/N--MKUj_.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"37a-EBk4a0+WG/JO6JfY08yydH26cvI\"",
-    "mtime": "2026-11-19T11:57:21.414Z",
-    "size": 890,
-    "path": "../public/_nuxt/N--MKUj_.js"
-  },
-  "/_nuxt/r8D4hgQK.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"e97-DtpMAKfw0qAA7UgDW2LhJMVYzCY\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 3735,
-    "path": "../public/_nuxt/r8D4hgQK.js"
-  },
-  "/_nuxt/S4NmztSJ.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"4b6-e0cFaW8by81Oz+LID2ksFHcodSg\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 1206,
-    "path": "../public/_nuxt/S4NmztSJ.js"
-  },
-  "/_nuxt/SRVKiqAA.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"4e9-h+4DRfgtvOyRJPNyBnxcRbX2bbM\"",
-    "mtime": "2026-11-19T11:57:21.404Z",
-    "size": 1257,
-    "path": "../public/_nuxt/SRVKiqAA.js"
-  },
-  "/_nuxt/XEYIKMT3.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"3cf-rma6USrzPR7q4e6VuzMK/jWHqgU\"",
-    "mtime": "2026-11-19T11:57:21.405Z",
-    "size": 975,
-    "path": "../public/_nuxt/XEYIKMT3.js"
+  "/images/service-photos/fluid3.webp": {
+    "type": "image/webp",
+    "etag": "\"5035a-WhNo3OHzPayzsHJFjVRduEwryt0\"",
+    "mtime": "2026-11-19T12:47:07.110Z",
+    "size": 328538,
+    "path": "../public/images/service-photos/fluid3.webp"
   },
   "/_nuxt/builds/latest.json": {
     "type": "application/json",
-    "etag": "\"47-g/sMxqZi68+WimtTF3txrzIKh4M\"",
-    "mtime": "2026-11-19T11:57:36.669Z",
+    "etag": "\"47-atDuHDVqEMeMDCQ6c1h9gWr/X9A\"",
+    "mtime": "2026-11-19T13:29:57.089Z",
     "size": 71,
     "path": "../public/_nuxt/builds/latest.json"
   },
-  "/_nuxt/builds/meta/79a9f090-62b1-411f-bae3-c11d4dbb8540.json": {
+  "/_nuxt/builds/meta/3fdf5197-5aec-455d-8f6e-69feaeaf04bb.json": {
     "type": "application/json",
-    "etag": "\"58-42yrhnzSYLG7jyf3AUfSIICy4kM\"",
-    "mtime": "2026-11-19T11:57:36.684Z",
+    "etag": "\"58-EDh9wvFBnH4OtNK3Ri1rI2y9Dy0\"",
+    "mtime": "2026-11-19T13:29:57.091Z",
     "size": 88,
-    "path": "../public/_nuxt/builds/meta/79a9f090-62b1-411f-bae3-c11d4dbb8540.json"
+    "path": "../public/_nuxt/builds/meta/3fdf5197-5aec-455d-8f6e-69feaeaf04bb.json"
+  },
+  "/_nuxt/builds/meta/dev.json": {
+    "type": "application/json",
+    "etag": "\"37-BgC1ABgzHDoc6Dhyh9ymMky3eNc\"",
+    "mtime": "2026-11-19T13:29:49.865Z",
+    "size": 55,
+    "path": "../public/_nuxt/builds/meta/dev.json"
+  },
+  "/images/service-photos/valve1.webp": {
+    "type": "image/webp",
+    "etag": "\"56cdc-6/wryPlAf5k6gF229BNzqs4U1po\"",
+    "mtime": "2026-11-19T12:46:55.567Z",
+    "size": 355548,
+    "path": "../public/images/service-photos/valve1.webp"
+  },
+  "/images/service-photos/fluid1.webp": {
+    "type": "image/webp",
+    "etag": "\"5ec90-quQEfzMJudw+czyxZQV98sbowLw\"",
+    "mtime": "2026-11-19T12:47:09.100Z",
+    "size": 388240,
+    "path": "../public/images/service-photos/fluid1.webp"
+  },
+  "/images/service-photos/valve3.webp": {
+    "type": "image/webp",
+    "etag": "\"458ce-HH/B2oa2kmbdCSW4OIE3dKWyIJI\"",
+    "mtime": "2026-11-19T12:46:51.612Z",
+    "size": 284878,
+    "path": "../public/images/service-photos/valve3.webp"
   }
 };
 

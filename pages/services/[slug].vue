@@ -24,15 +24,9 @@ const related = services.filter(x => x.slug !== s.slug).slice(0, 3)
           </div>
         </div>
         <div class="space-y-5">
-          <AppImage v-reveal class="aspect-[4/3] " hint="Approved technical image" />
-          <AppImage v-reveal="100" class="aspect-[4/3] " hint="Approved technical image" />
+          <AppImage v-reveal :src="s.detailImages[0]" :alt="s.name" class="aspect-[4/3] " hint="Add first service image in utils/site.ts" />
+          <AppImage v-reveal="100" :src="s.detailImages[1]" :alt="`${s.name} supporting image`" class="aspect-[4/3] " hint="Add second service image in utils/site.ts" />
         </div>
-      </div>
-    </section>
-    <section class="section bg-brand-mist">
-      <div class="container-x">
-        <SectionHead eyebrow="Related services" title="You may also need" />
-        <div class="grid gap-6 md:grid-cols-3"><ServiceCard v-for="(r, i) in related" :key="r.slug" :s="r" :i="services.indexOf(r)" /></div>
       </div>
     </section>
     <CtaBand />
