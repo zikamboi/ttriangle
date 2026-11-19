@@ -17,7 +17,7 @@ const services = [
   {
     slug: "valve-optimisation-solutions",
     name: "Valve Optimisation Solutions",
-    image: "/images/service-1.webp",
+    image: "/images/valve2.webp",
     short: "Valve procurement and relevant maintenance, inspection, repair and optimisation support.",
     headline: "Engineered valve solutions. Reliable performance. Operational confidence.",
     intro: "Valves are critical to flow control, process isolation and reliable plant operation. T Triangle Limited supports valve-related procurement and confirmed technical services based on the application, operating conditions and equipment requirement.",
@@ -27,7 +27,7 @@ const services = [
   {
     slug: "fluid-transfer-solutions",
     name: "Fluid Transfer Solutions",
-    image: "/images/fluid transfer.webp",
+    image: "/images/fluid2.webp",
     short: "Pump and fluid-transfer equipment, pipeline pigging and related support.",
     headline: "Fluid transfer equipment and pipeline support for demanding operations.",
     intro: "Reliable fluid transfer depends on equipment suited to the fluid, flow requirement, pressure and site conditions. We support defined pump and fluid-transfer requirements alongside pipeline pigging within our confirmed scope.",
@@ -37,7 +37,7 @@ const services = [
   {
     slug: "compressed-air-solutions",
     name: "Compressed Air Solutions",
-    image: "/images/compressed-air.webp",
+    image: "/images/Compresd2.webp",
     short: "Compressor equipment, service and rental where available.",
     headline: "Compressed-air equipment, service and rental support.",
     intro: "Compressed air supports industrial tools, instruments and processes. We support defined compressed-air equipment requirements, with service and rental subject to availability and application needs.",
@@ -67,7 +67,7 @@ const services = [
   {
     slug: "pressure-test-solutions",
     name: "Pressure Test Solutions",
-    image: "/images/pressure.webp",
+    image: "/images/PressureTest.webp",
     short: "Equipment and support for defined pressure-testing requirements.",
     headline: "Equipment and support for defined pressure-testing requirements.",
     intro: "Pressure testing can help verify equipment or system integrity before service or after maintenance. The right method depends on system design, test medium, governing procedure and site conditions.",
@@ -77,7 +77,7 @@ const services = [
   {
     slug: "touchpoint-engineering-access-creation",
     name: "Touchpoint Engineering & Access Creation (CUPS Remediation)",
-    image: "/images/Touch.webp",
+    image: "/images/touchpoint3.webp",
     short: "Specialist engineering and access support; exact scope to be confirmed.",
     headline: "Specialist engineering support for defined access and remediation challenges.",
     intro: "Maintenance and remediation can be complicated by access constraints and site-specific conditions. We support defined engineering and access-creation requirements within the approved scope of each project.",
@@ -87,7 +87,7 @@ const services = [
   {
     slug: "safe-isolation-solutions",
     name: "Safe Isolation Solutions",
-    image: "/images/safe-isolation.webp",
+    image: "/images/safesolution.webp",
     short: "Technologies and support for appropriate isolation requirements.",
     headline: "Safe-isolation solutions for controlled maintenance and operations.",
     intro: "Safe isolation is essential when equipment must be maintained or inspected. The right solution depends on the process, isolation philosophy, risk assessment and approved procedures.",
@@ -96,12 +96,28 @@ const services = [
   }
 ];
 const partners = [
-  { name: "Valvetight", image: "/images/valvetight.jpeg" },
-  { name: "Alcatraz", image: "/images/alcatraz.jpeg" },
-  { name: "Ovolift", image: "/images/ovolift.jpeg" },
-  { name: "MODEC", image: "/images/modec.jpeg" },
-  { name: "Alkitronic", image: "/images/alkitronic.jpeg" },
-  { name: "Linerider", image: "/images/linerider.jpeg" }
+  { name: "oems1", image: "/images/oems1.webp" },
+  { name: "oems2", image: "/images/oems2.webp" },
+  { name: "oems3", image: "/images/oems3.webp" },
+  { name: "oems4", image: "/images/oems4.webp" },
+  { name: "oems5", image: "/images/oems5.webp" },
+  { name: "oems6", image: "/images/oems6.webp" },
+  { name: "oems7", image: "/images/oems7.webp" },
+  { name: "oems8", image: "/images/oems8.webp" },
+  { name: "oems9", image: "/images/oems9.webp" },
+  { name: "oems10", image: "/images/oems10.webp" },
+  { name: "oems11", image: "/images/oems11.webp" },
+  { name: "oems12", image: "/images/oems12.webp" },
+  { name: "oems13", image: "/images/oems13.webp" },
+  { name: "oems14", image: "/images/oems14.webp" },
+  { name: "oems15", image: "/images/oems15.webp" },
+  { name: "oems16", image: "/images/oems16.webp" },
+  { name: "oems17", image: "/images/oems17.webp" },
+  { name: "oems18", image: "/images/oems18.webp" },
+  { name: "oems19", image: "/images/oems19.webp" },
+  { name: "oems20", image: "/images/oems20.webp" },
+  { name: "oems21", image: "/images/oems21.webp" },
+  { name: "oems22", image: "/images/oems22.webp" }
 ];
 const markets = ["Oil & Gas", "Energy & Power", "Industrial & Manufacturing", "Marine & Offshore", "Construction & Process Industries"];
 

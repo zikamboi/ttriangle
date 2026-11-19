@@ -3,6 +3,25 @@ useHead({ title: 'T Triangle Limited | Engineering & Technical Solutions' })
 const heroImage = '' // e.g. '/images/hero.jpg' (place the file in /public/images)
 const active = ref(0)
 const loop = [...services, ...services]
+const clientImages = [
+  { src: '/clients/ap.webp', alt: 'AP' },
+  { src: '/clients/cg.webp', alt: 'CG' },
+  { src: '/clients/chevron.webp', alt: 'Chevron' },
+  { src: '/clients/daewoo.webp', alt: 'Daewoo' },
+  { src: '/clients/dangote.webp', alt: 'Dangote' },
+  { src: '/clients/daystar.webp', alt: 'Daystar' },
+  { src: '/clients/fmn.webp', alt: 'FMN' },
+  { src: '/clients/heritage.webp', alt: 'Heritage' },
+  { src: '/clients/midwestern.webp', alt: 'Midwestern' },
+  { src: '/clients/namdock.webp', alt: 'Namdock' },
+  { src: '/clients/nlng.webp', alt: 'NLNG' },
+  { src: '/clients/pace.webp', alt: 'Pace' },
+  { src: '/clients/seplat.webp', alt: 'Seplat' },
+  { src: '/clients/shell.webp', alt: 'Shell' },
+  { src: '/clients/spie.webp', alt: 'SPIE' },
+  { src: '/clients/stac.webp', alt: 'STAC' },
+  { src: '/clients/waltersmith.webp', alt: 'Waltersmith' }
+]
 const steps = [
   ['Share your requirement', 'Tell us the application, site, specifications and timeline.'],
   ['We review and clarify', 'Our team reviews the scope and may ask follow-up questions.'],
@@ -177,6 +196,20 @@ const steps = [
       </div>
     </section>
 
+    <!-- CLIENTS -->
+    <section class="section overflow-hidden">
+      <div class="container-x">
+        <h2 class="text-center text-4xl sm:text-5xl">Our Clients</h2>
+      </div>
+      <div class="clients-viewport mt-10 overflow-hidden">
+        <div class="clients-track flex w-max gap-4">
+          <div v-for="(image, i) in [...clientImages, ...clientImages]" :key="i" :aria-hidden="i >= clientImages.length" class="grid h-32 w-56 shrink-0 place-items-center border border-slate-200 bg-white p-5">
+            <img :src="image.src" :alt="i < clientImages.length ? image.alt : ''" loading="lazy" class="max-h-full max-w-full object-contain" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- INSIGHTS -->
     <section class="section">
       <div class="container-x">
@@ -194,3 +227,28 @@ const steps = [
     <CtaBand />
   </div>
 </template>
+
+<style scoped>
+@keyframes clients-marquee-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.clients-track {
+  animation: clients-marquee-left 50s linear infinite;
+}
+
+.clients-viewport:hover .clients-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .clients-track {
+    animation: none;
+  }
+
+  .clients-viewport {
+    overflow-x: auto;
+  }
+}
+</style>

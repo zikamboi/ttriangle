@@ -14,6 +14,12 @@ useHead({ title: 'Our OEM & Technology Partners | T Triangle Limited' })
           <div v-for="(p, i) in partners" :key="p.name" v-reveal="i * 70" class="grid h-36 place-items-center border border-slate-200 p-4">
             <img :src="p.image" :alt="p.name" loading="lazy" class="max-h-full max-w-full object-contain" />
           </div>
+          <div v-reveal="partners.length * 70" class="grid h-36 place-items-center border border-slate-200 bg-brand-mist p-4 text-center">
+            <div>
+              <p class="text-lg font-bold text-brand-dark">And many more</p>
+              <p class="mt-1 text-xs leading-5 text-brand-dark">Additional OEMs and specialist technology partners available.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
