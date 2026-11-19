@@ -2178,19 +2178,19 @@ _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
 const assets = {
-  "/index.mjs.map": {
-    "type": "application/json",
-    "etag": "\"7bda8-dzYJFhsu2Ad0Dv8kFfgGThbXKmU\"",
-    "mtime": "2026-11-16T21:58:20.996Z",
-    "size": 507304,
-    "path": "index.mjs.map"
-  },
   "/index.mjs": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1f4da-UpK0sOuwikLhQIg3qHuWvzvm14g\"",
-    "mtime": "2026-11-16T21:58:20.996Z",
-    "size": 128218,
+    "etag": "\"1f49e-8PmMNUKnDS49LxEoqT9fRp5IP2E\"",
+    "mtime": "2026-11-19T09:35:57.057Z",
+    "size": 128158,
     "path": "index.mjs"
+  },
+  "/index.mjs.map": {
+    "type": "application/json",
+    "etag": "\"7bcf6-Gl4Mt5J0VTnhzlzpSXVi/xx7PCo\"",
+    "mtime": "2026-11-19T09:35:57.057Z",
+    "size": 507126,
+    "path": "index.mjs.map"
   }
 };
 
@@ -3223,7 +3223,7 @@ const services = [
   {
     slug: "valve-optimisation-solutions",
     name: "Valve Optimisation Solutions",
-    image: "/images/service-1.webp",
+    image: "/images/valve2.webp",
     short: "Valve procurement and relevant maintenance, inspection, repair and optimisation support.",
     headline: "Engineered valve solutions. Reliable performance. Operational confidence.",
     intro: "Valves are critical to flow control, process isolation and reliable plant operation. T Triangle Limited supports valve-related procurement and confirmed technical services based on the application, operating conditions and equipment requirement.",
@@ -3233,7 +3233,7 @@ const services = [
   {
     slug: "fluid-transfer-solutions",
     name: "Fluid Transfer Solutions",
-    image: "/images/fluid transfer.webp",
+    image: "/images/fluid2.webp",
     short: "Pump and fluid-transfer equipment, pipeline pigging and related support.",
     headline: "Fluid transfer equipment and pipeline support for demanding operations.",
     intro: "Reliable fluid transfer depends on equipment suited to the fluid, flow requirement, pressure and site conditions. We support defined pump and fluid-transfer requirements alongside pipeline pigging within our confirmed scope.",
@@ -3243,7 +3243,7 @@ const services = [
   {
     slug: "compressed-air-solutions",
     name: "Compressed Air Solutions",
-    image: "/images/compressed-air.webp",
+    image: "/images/Compresd2.webp",
     short: "Compressor equipment, service and rental where available.",
     headline: "Compressed-air equipment, service and rental support.",
     intro: "Compressed air supports industrial tools, instruments and processes. We support defined compressed-air equipment requirements, with service and rental subject to availability and application needs.",
@@ -3273,7 +3273,7 @@ const services = [
   {
     slug: "pressure-test-solutions",
     name: "Pressure Test Solutions",
-    image: "/images/pressure.webp",
+    image: "/images/PressureTest.webp",
     short: "Equipment and support for defined pressure-testing requirements.",
     headline: "Equipment and support for defined pressure-testing requirements.",
     intro: "Pressure testing can help verify equipment or system integrity before service or after maintenance. The right method depends on system design, test medium, governing procedure and site conditions.",
@@ -3283,7 +3283,7 @@ const services = [
   {
     slug: "touchpoint-engineering-access-creation",
     name: "Touchpoint Engineering & Access Creation (CUPS Remediation)",
-    image: "/images/Touch.webp",
+    image: "/images/touchpoint3.webp",
     short: "Specialist engineering and access support; exact scope to be confirmed.",
     headline: "Specialist engineering support for defined access and remediation challenges.",
     intro: "Maintenance and remediation can be complicated by access constraints and site-specific conditions. We support defined engineering and access-creation requirements within the approved scope of each project.",
@@ -3293,7 +3293,7 @@ const services = [
   {
     slug: "safe-isolation-solutions",
     name: "Safe Isolation Solutions",
-    image: "/images/safe-isolation.webp",
+    image: "/images/safesolution.webp",
     short: "Technologies and support for appropriate isolation requirements.",
     headline: "Safe-isolation solutions for controlled maintenance and operations.",
     intro: "Safe isolation is essential when equipment must be maintained or inspected. The right solution depends on the process, isolation philosophy, risk assessment and approved procedures.",
