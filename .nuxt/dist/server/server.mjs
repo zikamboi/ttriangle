@@ -602,7 +602,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-DYzqsM8D.js")
+    component: () => import("./_nuxt/index-CnwBdAZG.js")
   },
   {
     name: "contact",
