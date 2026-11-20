@@ -43,8 +43,8 @@ export const services = [
     enquiry: 'Pressure and flow, air quality, duty cycle, power supply, site conditions, rental duration, location and target date.' },
     
   { slug: 'bolting-torquing-solutions', name: 'Bolting & Torquing Solutions',
-    image: '/images/bolt.webp',
-    detailImages: ['/images/service-photos/bolt1.webp','/images/service-photos/bolt2.webp'],
+    image: '/images/bolt4.webp',
+    detailImages: ['/images/service-photos/bolt5.webp','/images/service-photos/bolt2.webp'],
     short: 'Controlled tightening equipment and related technical support.',
     headline: 'Controlled tightening solutions for critical bolted connections.',
     intro: 'Bolted joints require appropriate tools and methods to meet specified joint requirements. We support bolting and torquing requirements with equipment and technical options matched to the joint and project.',

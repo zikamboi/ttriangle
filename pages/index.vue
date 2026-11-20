@@ -8,7 +8,7 @@ const marketImages: Record<string, string> = {
   'Energy & Power': '/images/service-photos/energy.webp',
   'Industrial & Manufacturing': '/images/service-photos/industrial.webp',
   'Marine & Offshore': '/images/service-photos/marine.webp',
-  'Construction & Process Industries': '/images/service-photos/flange2.webp'
+  'Construction & Process Industries': '/images/service-photos/const.webp'
 }
 const clientImages = [
   { src: '/clients/ap.webp', alt: 'AP' },
@@ -52,14 +52,13 @@ const steps = [
             We support industrial operators with specialised equipment, engineering services and technical solutions designed around operational requirements.
           </p>
           <div class="mt-10 flex animate-fade-up flex-wrap gap-4" style="animation-delay:.4s">
-            <NuxtLink to="/contact" class="btn btn-red">Discuss Your Requirement</NuxtLink>
+            <span class="btn btn-red cursor-default">Discuss Your Requirements</span>
             <NuxtLink to="/services" class="btn btn-ghost">Explore Our Services</NuxtLink>
           </div>
         </div>
       </div>
-      <div class="container-x relative mb-8 grid animate-fade-up border-t border-white/15 sm:grid-cols-3" style="animation-delay:.6s">
-        <NuxtLink to="/contact" class="group border-white/15 py-5 sm:border-r sm:pr-6"><span class="text-xs uppercase tracking-widest text-white/50">Quotations</span><span class="mt-1 flex items-center justify-between font-display text-2xl uppercase">Request a Quote <span class="transition group-hover:translate-x-2">→</span></span></NuxtLink>
-        <NuxtLink to="/oem" class="group border-white/15 py-5 sm:border-r sm:px-6"><span class="text-xs uppercase tracking-widest text-white/50">Technologies</span><span class="mt-1 flex items-center justify-between font-display text-2xl uppercase">Specialised OEM <span class="transition group-hover:translate-x-2">→</span></span></NuxtLink>
+      <div class="container-x relative mb-8 grid animate-fade-up border-t border-white/15 sm:grid-cols-2" style="animation-delay:.6s">
+        <NuxtLink to="/oem" class="group border-white/15 py-5 sm:border-r sm:pr-6"><span class="text-xs uppercase tracking-widest text-white/50">Technologies</span><span class="mt-1 flex items-center justify-between font-display text-2xl uppercase">Specialised OEM <span class="transition group-hover:translate-x-2">→</span></span></NuxtLink>
         <a :href="`tel:${contact.ng.phone.replace(/\s/g,'')}`" class="group py-5 sm:pl-6"><span class="text-xs uppercase tracking-widest text-white/50">Speak to our team</span><span class="mt-1 flex items-center justify-between font-display text-2xl uppercase">{{ contact.ng.phone }} <span class="transition group-hover:translate-x-2">→</span></span></a>
       </div>
     </section>

@@ -601,49 +601,49 @@ const _routes = [
   {
     name: "oem",
     path: "/oem",
-    component: () => import('./oem-DgchrKDi.mjs')
+    component: () => import('./oem-CGxGlzUX.mjs')
   },
   {
     name: "about",
     path: "/about",
-    component: () => import('./about-FDhS1aqm.mjs')
+    component: () => import('./about-C_UJheLQ.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-CgDR8vrD.mjs')
+    component: () => import('./index-DYzqsM8D.mjs')
   },
   {
     name: "contact",
     path: "/contact",
-    component: () => import('./contact-B1yhr3Mo.mjs')
+    component: () => import('./contact-B6lBhCvz.mjs')
   },
   {
     name: "privacy",
     path: "/privacy",
-    component: () => import('./privacy-C9XoCSQn.mjs')
+    component: () => import('./privacy-CLyGsc_X.mjs')
   },
   {
     name: "lp-quote",
     path: "/lp/quote",
     meta: __nuxt_page_meta$1 || {},
-    component: () => import('./quote-Cj_-z0GX.mjs')
+    component: () => import('./quote-BYn53QSl.mjs')
   },
   {
     name: "partners",
     path: "/partners",
-    component: () => import('./partners-rV3ySMzJ.mjs')
+    component: () => import('./partners-Cb1dIXSp.mjs')
   },
   {
     name: "projects",
     path: "/projects",
-    component: () => import('./projects-BgfLnovk.mjs')
+    component: () => import('./projects-Kv8ICf7Q.mjs')
   },
   {
     name: "lp-slug",
     path: "/lp/:slug()",
     meta: __nuxt_page_meta || {},
-    component: () => import('./_slug_-EAvZqngO.mjs')
+    component: () => import('./_slug_-BmlnD1zk.mjs')
   },
   {
     name: "thank-you",
@@ -653,17 +653,17 @@ const _routes = [
   {
     name: "insights",
     path: "/insights",
-    component: () => import('./index-C7TgsOGc.mjs')
+    component: () => import('./index-BSw3J2kW.mjs')
   },
   {
     name: "services",
     path: "/services",
-    component: () => import('./index-De6jOjFz.mjs')
+    component: () => import('./index-yRWG0825.mjs')
   },
   {
     name: "services-slug",
     path: "/services/:slug()",
-    component: () => import('./_slug_-B2jj94Xk.mjs')
+    component: () => import('./_slug_-MEOiFWtM.mjs')
   }
 ];
 const validate = /* @__PURE__ */ defineNuxtRouteMiddleware(async (to) => {
@@ -985,8 +985,8 @@ const plugins = [
   reveal_snmQhZfipqSXKAciJSK6gyqNJnfbBUO5IgmKus35Q5c
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-u8Ftc7lo.mjs').then((m) => m.default || m)),
-  landing: defineAsyncComponent(() => import('./landing-C6DI2j1S.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-DgtABszd.mjs').then((m) => m.default || m)),
+  landing: defineAsyncComponent(() => import('./landing-C78aOZ8Z.mjs').then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
 const LayoutLoader = defineComponent({
