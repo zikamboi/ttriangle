@@ -31,6 +31,11 @@ const coreValues = [
         <div v-reveal class="space-y-5 text-slate-600">
           <p class="eyebrow">Our Purpose</p>
           <h2 class="max-w-xl text-4xl !text-brand sm:text-5xl">We keep critical energy infrastructure safe, compliant and producing.</h2>
+          <div class="space-y-5 pt-2">
+            <p>T Triangle Limited is an engineering and technical solutions company supporting industrial operations through equipment sourcing, procurement support and specialised technical services. We work with clients to understand operational requirements and coordinate solutions that fit the application, site conditions and project objectives.</p>
+            <p>Our work addresses practical challenges involving equipment performance, maintenance, process safety, operational continuity and project execution.</p>
+            <p>Dependable service begins with understanding the requirement: clarifying the scope, communicating openly, respecting site and safety requirements, and following through on agreed commitments.</p>
+          </div>
         </div>
         <AppImage v-reveal="150" class="aspect-[4/3] " hint="Team / workshop image" />
       </div>
