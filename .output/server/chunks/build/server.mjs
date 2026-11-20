@@ -606,12 +606,12 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import('./about-C_UJheLQ.mjs')
+    component: () => import('./about-Ch4V10aP.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-CnwBdAZG.mjs')
+    component: () => import('./index-Ce2VOYsc.mjs')
   },
   {
     name: "contact",

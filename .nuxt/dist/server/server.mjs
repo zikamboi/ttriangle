@@ -597,12 +597,12 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import("./_nuxt/about-C_UJheLQ.js")
+    component: () => import("./_nuxt/about-Ch4V10aP.js")
   },
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-CnwBdAZG.js")
+    component: () => import("./_nuxt/index-Ce2VOYsc.js")
   },
   {
     name: "contact",

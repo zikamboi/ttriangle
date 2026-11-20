@@ -83,8 +83,8 @@ const steps = [
         </div>
         <div v-reveal="150">
           <p class="eyebrow">Who we are</p>
-          <h2 class="text-4xl sm:text-6xl">The right technical support makes the difference</h2>
-          <p class="mt-6 text-lg">When equipment performance, safe operations and project schedules matter, T Triangle Limited works with clients to understand their applications, clarify requirements and coordinate suitable equipment and specialist services for the operating environment.</p>
+          <h2 class="max-w-xl text-4xl !text-brand sm:text-6xl">The right technical support makes the difference</h2>
+          <p class="mt-6 max-w-xl text-lg leading-8 text-slate-700">When equipment performance, safe operations and project schedules matter, T Triangle Limited works with clients to understand their applications, clarify requirements and coordinate suitable equipment and specialist services for the operating environment.</p>
           <NuxtLink to="/about" class="btn btn-outline mt-8">About Us →</NuxtLink>
         </div>
       </div>

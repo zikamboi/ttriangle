@@ -1,6 +1,27 @@
 <script setup lang="ts">
 useHead({ title: 'About Us | T Triangle Limited' })
-const values = ['Safety', 'Integrity', 'Reliability', 'Customer focus', 'Continuous improvement']
+const coreValues = [
+  {
+    number: '01',
+    title: 'Customization',
+    text: 'Bespoke solutions for every client, tailored to meet specific requirements and objectives. No two shutdowns are the same, so no two of our method statements are either.'
+  },
+  {
+    number: '02',
+    title: 'Responsibility',
+    text: 'Safety is paramount in everything we do, ensuring protection for all stakeholders. Every job is planned and executed with safety as a core value, not a checkbox.'
+  },
+  {
+    number: '03',
+    title: 'Excellence',
+    text: 'Flawless execution and seamless service delivery in every project we undertake, measured against international codes and our clients\' own specifications.'
+  },
+  {
+    number: '04',
+    title: 'Performance',
+    text: 'Industry-leading results, ethical conduct and responsible operations that drive success for our clients, our people and the communities where we work.'
+  }
+]
 </script>
 <template>
   <div>
@@ -8,18 +29,33 @@ const values = ['Safety', 'Integrity', 'Reliability', 'Customer focus', 'Continu
     <section class="section">
       <div class="container-x grid gap-12 lg:grid-cols-2">
         <div v-reveal class="space-y-5 text-slate-600">
-          <p>T Triangle Limited is an engineering and technical solutions company supporting industrial operations through equipment sourcing, procurement support and specialised technical services. We work with clients to understand operational requirements and coordinate solutions that fit the application, site conditions and project objectives.</p>
-          <p>Our work addresses practical challenges involving equipment performance, maintenance, process safety, operational continuity and project execution.</p>
-          <p>Dependable service begins with understanding the requirement: clarifying the scope, communicating openly, respecting site and safety requirements, and following through on agreed commitments.</p>
+          <p class="eyebrow">Our Purpose</p>
+          <h2 class="max-w-xl text-4xl !text-brand sm:text-5xl">We keep critical energy infrastructure safe, compliant and producing.</h2>
         </div>
         <AppImage v-reveal="150" class="aspect-[4/3] " hint="Team / workshop image" />
       </div>
     </section>
-    <section class="section bg-brand-mist">
-      <div class="container-x grid gap-6 md:grid-cols-3">
-        <div v-reveal class=" bg-white p-8"><h3 class="font-bold text-brand-red">Mission</h3><p class="mt-3 text-slate-600">To provide responsive engineering, equipment and specialist technical solutions that help clients meet their operational requirements.</p></div>
-        <div v-reveal="100" class=" bg-white p-8"><h3 class="font-bold text-brand-red">Vision</h3><p class="mt-3 text-slate-600">To be a trusted technical solutions partner for industrial organisations across Africa.</p></div>
-        <div v-reveal="200" class=" bg-white p-8"><h3 class="font-bold text-brand-red">Values</h3><ul class="mt-3 space-y-1 text-slate-600"><li v-for="v in values" :key="v">• {{ v }}</li></ul></div>
+    <section class="section bg-brand text-white">
+      <div class="container-x">
+        <div class="grid gap-6 md:grid-cols-2">
+          <div v-reveal class="border border-white/25 bg-white/10 p-7 shadow-sm sm:p-8">
+            <h3 class="font-display text-2xl text-brand-red">Vision</h3>
+            <p class="mt-4 max-w-xl text-base leading-7 text-white/85">To be Africa's foremost provider of sustainable, innovative engineering and energy solutions, consistently exceeding industry benchmarks.</p>
+          </div>
+          <div v-reveal="100" class="border border-white/25 bg-white/10 p-7 shadow-sm sm:p-8">
+            <h3 class="font-display text-2xl text-brand-red">Mission</h3>
+            <p class="mt-4 max-w-xl text-base leading-7 text-white/85">To serve as your single source partner, delivering complete value chains and cost-optimized solutions with a substantial inventory, expert repair and continuous innovation.</p>
+          </div>
+        </div>
+        <div class="mt-14">
+          <p class="eyebrow !text-brand-red">Our Core Values</p>
+          <div class="mt-6 grid gap-4 md:grid-cols-2">
+            <div v-for="(value, i) in coreValues" :key="value.title" v-reveal="i * 80" class="border border-white/20 bg-white/10 p-7 transition duration-300 hover:bg-white/15 sm:p-8">
+              <h3 class="text-xl !text-white"><span class="mr-3 font-display text-2xl font-bold text-brand-red">{{ value.number }}</span>{{ value.title }}</h3>
+              <p class="mt-4 text-sm leading-7 text-white/85">{{ value.text }}</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="market-focus" class="section">
