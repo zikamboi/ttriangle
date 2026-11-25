@@ -272,7 +272,7 @@ export const services = [
     ] },
 
   { slug: 'touchpoint-engineering-access-creation', name: 'Touchpoint Engineering & Access Creation (CUPS Remediation)',
-    image: '/images/touchpoint3.webp',
+    image: '/images/touch6.webp',
     detailImages: ['/images/service-photos/touch4.webp','/images/service-photos/touch5.webp'],
     short: 'CUPS remediation and touchpoint access creation support with Ovolifts.',
     headline: 'Touchpoint Engineering and Access Creation for CUPS Remediation, by Ovolifts',
@@ -329,7 +329,7 @@ export const services = [
     ] },
     
   { slug: 'safe-isolation-solutions', name: 'Safe Isolation Solutions',
-    image: '/images/safesolution.webp',
+    image: '/images/safe5.webp',
     detailImages: ['/images/service-photos/safe3.webp','/images/service-photos/safe4.webp'],
     short: 'Specialist isolation technologies for controlled maintenance and operations.',
     headline: 'Safe Isolation Solutions in Nigeria',

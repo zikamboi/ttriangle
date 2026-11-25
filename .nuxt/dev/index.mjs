@@ -2180,16 +2180,16 @@ _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 const assets = {
   "/index.mjs": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"23d57-hiF9gviVpkGLGi1majwHflIOXyA\"",
-    "mtime": "2026-11-25T22:40:09.777Z",
-    "size": 146775,
+    "etag": "\"23d4b-Ib5xwYA7SADrOjmpI4qqDi0GNCg\"",
+    "mtime": "2026-11-25T23:58:29.678Z",
+    "size": 146763,
     "path": "index.mjs"
   },
   "/index.mjs.map": {
     "type": "application/json",
-    "etag": "\"9161c-YoDAJsNhlVBJBslk0JojHYxSdNw\"",
-    "mtime": "2026-11-25T22:40:10.166Z",
-    "size": 595484,
+    "etag": "\"915e0-EUOUFJ2apYIMGLGDGo4UfCA5uGs\"",
+    "mtime": "2026-11-25T23:58:29.678Z",
+    "size": 595424,
     "path": "index.mjs.map"
   }
 };
@@ -3491,7 +3491,7 @@ const services = [
   {
     slug: "touchpoint-engineering-access-creation",
     name: "Touchpoint Engineering & Access Creation (CUPS Remediation)",
-    image: "/images/touchpoint3.webp",
+    image: "/images/touch6.webp",
     detailImages: ["/images/service-photos/touch4.webp", "/images/service-photos/touch5.webp"],
     short: "CUPS remediation and touchpoint access creation support with Ovolifts.",
     headline: "Touchpoint Engineering and Access Creation for CUPS Remediation, by Ovolifts",
@@ -3550,7 +3550,7 @@ const services = [
   {
     slug: "safe-isolation-solutions",
     name: "Safe Isolation Solutions",
-    image: "/images/safesolution.webp",
+    image: "/images/safe5.webp",
     detailImages: ["/images/service-photos/safe3.webp", "/images/service-photos/safe4.webp"],
     short: "Specialist isolation technologies for controlled maintenance and operations.",
     headline: "Safe Isolation Solutions in Nigeria",
