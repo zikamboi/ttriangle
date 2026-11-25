@@ -273,7 +273,7 @@ export const services = [
 
   { slug: 'touchpoint-engineering-access-creation', name: 'Touchpoint Engineering & Access Creation (CUPS Remediation)',
     image: '/images/touchpoint3.webp',
-    detailImages: ['/images/service-photos/touch1.webp','/images/service-photos/touch2.webp'],
+    detailImages: ['/images/service-photos/touch4.webp','/images/service-photos/touch5.webp'],
     short: 'CUPS remediation and touchpoint access creation support with Ovolifts.',
     headline: 'Touchpoint Engineering and Access Creation for CUPS Remediation, by Ovolifts',
     intro: 'Corrosion under pipe supports (CUPS) is one of the hardest integrity threats to inspect, because the damage sits exactly where the pipe rests on its support. T Triangle Limited works with Ovolifts, to help operators in Nigeria gain safe access to pipe touchpoints so they can be inspected, cleaned, coated and protected.',
@@ -330,7 +330,7 @@ export const services = [
     
   { slug: 'safe-isolation-solutions', name: 'Safe Isolation Solutions',
     image: '/images/safesolution.webp',
-    detailImages: ['/images/service-photos/touch1.webp','/images/service-photos/touch2.webp'],
+    detailImages: ['/images/service-photos/safe3.webp','/images/service-photos/safe4.webp'],
     short: 'Specialist isolation technologies for controlled maintenance and operations.',
     headline: 'Safe Isolation Solutions in Nigeria',
     intro: 'Safe isolation protects people, plant and the environment whenever equipment must be opened for maintenance, inspection, repair or modification. T Triangle Limited helps operators in Nigeria select and deliver the right isolation method for each job, including methods that allow work to proceed while the rest of the system stays in service.\n\nThere is no single answer for every job. The right solution depends on the process fluid, pressure and temperature, the isolation philosophy of the operator, the risk assessment and the approved procedures.',
