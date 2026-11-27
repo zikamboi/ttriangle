@@ -3,6 +3,10 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.directive('reveal', {
     mounted(el: HTMLElement, binding) {
       if (binding.value) el.style.transitionDelay = `${binding.value}ms`
+      if (!('IntersectionObserver' in window)) {
+        el.classList.add('is-visible')
+        return
+      }
       const io = new IntersectionObserver(([e]) => {
         if (e.isIntersecting) { el.classList.add('is-visible'); io.disconnect() }
       }, { threshold: 0.12 })

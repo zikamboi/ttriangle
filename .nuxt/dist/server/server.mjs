@@ -592,12 +592,12 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import("./_nuxt/about-DYv2cCLI.js")
+    component: () => import("./_nuxt/about-DUfBByN8.js")
   },
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-C4J2A6l8.js")
+    component: () => import("./_nuxt/index-luIU0tJ6.js")
   },
   {
     name: "contact",
@@ -659,7 +659,7 @@ const _routes = [
   {
     name: "services",
     path: "/services",
-    component: () => import("./_nuxt/index-DZ2qS1sL.js")
+    component: () => import("./_nuxt/index-hPXm2dew.js")
   },
   {
     name: "insights-slug",
@@ -669,7 +669,7 @@ const _routes = [
   {
     name: "services-slug",
     path: "/services/:slug()",
-    component: () => import("./_nuxt/_slug_-ClwJslqP.js")
+    component: () => import("./_nuxt/_slug_-Bl7oj6gX.js")
   }
 ];
 const validate = /* @__PURE__ */ defineNuxtRouteMiddleware(async (to) => {
@@ -970,6 +970,10 @@ const reveal_snmQhZfipqSXKAciJSK6gyqNJnfbBUO5IgmKus35Q5c = /* @__PURE__ */ defin
   nuxtApp.vueApp.directive("reveal", {
     mounted(el, binding) {
       if (binding.value) el.style.transitionDelay = `${binding.value}ms`;
+      if (!("IntersectionObserver" in void 0)) {
+        el.classList.add("is-visible");
+        return;
+      }
       const io = new IntersectionObserver(([e]) => {
         if (e.isIntersecting) {
           el.classList.add("is-visible");
@@ -991,7 +995,7 @@ const plugins = [
   reveal_snmQhZfipqSXKAciJSK6gyqNJnfbBUO5IgmKus35Q5c
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-BTCUiJiJ.js").then((m) => m.default || m)),
+  default: defineAsyncComponent(() => import("./_nuxt/default-OcJi3tw3.js").then((m) => m.default || m)),
   landing: defineAsyncComponent(() => import("./_nuxt/landing-BRMjHzjV.js").then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;

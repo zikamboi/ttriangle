@@ -11,7 +11,7 @@ const related = services.filter(x => x.slug !== s.slug).slice(0, 3)
       <NuxtLink :to="`/contact?service=${s.slug}`" class="btn btn-red mt-8">Discuss This Solution</NuxtLink>
     </PageHero>
     <section class="section">
-      <div class="container-x grid gap-12 lg:grid-cols-[1.2fr_.8fr]">
+      <div class="container-x grid gap-8 lg:gap-12 lg:grid-cols-[1.2fr_.8fr]">
         <div>
           <h2 v-reveal class="text-4xl">{{ s.name }}</h2>
           <p v-reveal class="mt-4 whitespace-pre-line text-slate-600">{{ s.intro }}</p>
@@ -188,9 +188,9 @@ const related = services.filter(x => x.slug !== s.slug).slice(0, 3)
             </p>
           </div>
         </div>
-        <div class="space-y-5">
-          <AppImage v-reveal :src="s.detailImages[0]" :alt="s.name" class="aspect-[4/3] " hint="Add first service image in utils/site.ts" />
-          <AppImage v-reveal="100" :src="s.detailImages[1]" :alt="`${s.name} supporting image`" class="aspect-[4/3] " hint="Add second service image in utils/site.ts" />
+        <div class="grid min-w-0 grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-1">
+          <AppImage :src="s.detailImages[0]" :alt="s.name" class="aspect-[4/3] min-w-0" hint="Add first service image in utils/site.ts" />
+          <AppImage :src="s.detailImages[1]" :alt="`${s.name} supporting image`" class="aspect-[4/3] min-w-0" hint="Add second service image in utils/site.ts" />
         </div>
       </div>
     </section>
