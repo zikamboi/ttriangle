@@ -194,8 +194,8 @@ const steps = [
       <div class="container-x">
         <SectionHead
           eyebrow="Projects"
-          title="Project applications we support"
-          text="A selection of application-focused examples from our technical support areas."
+          title="Selected project work"
+          text="Project assignments across inspection, valve supply, safe isolation, construction and offshore operations."
         />
         <div class="space-y-16 sm:space-y-20">
           <ProjectFeature v-for="(project, i) in projects.slice(0, 3)" :key="project.slug" :project="project" :index="i" />

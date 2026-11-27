@@ -425,44 +425,52 @@ export const services = [
 
 export const projects = [
   {
-    slug: 'valve-operations',
-    category: 'Valve optimisation',
-    title: 'Supporting reliable valve operation',
+    slug: 'seplat-oben-emissions-inspection',
+    category: 'Inspection and emissions detection',
+    title: 'Seplat Oben Gas Plant Fugitive Emission Inspection and Flare Detection',
+    image: '/images/service-photos/oil.webp',
+    imageAlt: 'Oil and gas facility',
+    summary: 'Fugitive emission inspection and flare detection at Seplat Oben Gas Plant.'
+  },
+  {
+    slug: 'shell-bonga-valve-supply-2022-tamap',
+    category: 'Valve manufacturing and supply',
+    title: 'Manufacturing and Supply of Customized 3-Way Ball Valves and Hydraulic-Actuated Ball Valves for Shell Bonga FPSO - 2022 TAMAP',
     image: '/images/service-photos/valve1.webp',
-    imageAlt: 'Industrial valve equipment',
-    summary: 'We help clarify valve requirements by reviewing the application, service conditions and operational issue, then coordinate suitable procurement or technical support options.'
+    imageAlt: 'Industrial ball valve equipment',
+    summary: 'Manufacturing and supply of customized 3-way ball valves and ball valves with hydraulic actuators (ENERGY VALVES) for Shell Bonga FPSO during the 2022 TAMAP.'
   },
   {
-    slug: 'controlled-bolting',
-    category: 'Bolting and torquing',
-    title: 'Planning work on critical bolted joints',
-    image: '/images/service-photos/bolt1.webp',
-    imageAlt: 'Industrial bolting equipment',
-    summary: 'Joint details, fastener specifications, access and site conditions all shape a bolting plan. We help assemble these requirements and coordinate relevant tooling and technical support.'
-  },
-  {
-    slug: 'fluid-transfer',
-    category: 'Fluid transfer',
-    title: 'Matching transfer equipment to the duty',
-    image: '/images/service-photos/fluid1.webp',
-    imageAlt: 'Industrial fluid transfer equipment',
-    summary: 'We review the fluid, flow rate, pressure and operating environment to help identify suitable pump and transfer options for industrial requirements.'
-  },
-  {
-    slug: 'pressure-testing',
-    category: 'Pressure testing',
-    title: 'Preparing for a pressure test',
-    image: '/images/service-photos/pressure2.webp',
-    imageAlt: 'Pressure testing equipment',
-    summary: 'A clear test scope starts with the equipment or line, test pressure, medium, boundaries and documentation requirements. We help define these details before coordinating support.'
-  },
-  {
-    slug: 'safe-isolation',
+    slug: 'shell-bonga-safe-isolation-dbb-saver',
     category: 'Safe isolation',
-    title: 'Planning an isolation for maintenance',
+    title: 'Safe Isolation of a Passing Valve at Shell Bonga FPSO Using DBB SAVER Technology',
     image: '/images/service-photos/safe2.webp',
-    imageAlt: 'Industrial safe isolation equipment',
-    summary: 'We help review the isolation objective, process conditions and access requirements, then coordinate suitable specialist options within the agreed project scope.'
+    imageAlt: 'Safe isolation equipment',
+    summary: 'DBB SAVER technology was used to isolate a passing valve and create a safe work area without shutting down Shell Bonga FPSO.'
+  },
+  {
+    slug: 'nlng-train-7-insert-plates',
+    category: 'Construction materials',
+    title: 'Insert Plates with Anchor Hooks for Slabs, Walls, and Construction Joints - NLNG Train 7 Project',
+    image: '/images/service-photos/const.webp',
+    imageAlt: 'Construction project site',
+    summary: 'Insert plates with anchor hooks for slabs, walls, and construction joints for the NLNG Train 7 Project.'
+  },
+  {
+    slug: 'bonga-fpso-reefer-container-replacement',
+    category: 'Offshore equipment replacement',
+    title: 'Replacement of Bonga FPSO Containerized Refrigerator with Three 20 ft Reefer Containers',
+    image: '/images/service-photos/marine.webp',
+    imageAlt: 'Offshore marine facility',
+    summary: 'The Bonga FPSO containerized refrigerator was replaced with three 20 ft reefer containers.'
+  },
+  {
+    slug: 'nlng-train-7-temporary-fence',
+    category: 'Fabrication',
+    title: 'Fabrication of Temporary Fence Structure for NLNG Train 7 Project',
+    image: '/images/service-photos/industrial.webp',
+    imageAlt: 'Industrial fabrication facility',
+    summary: 'Fabrication of a temporary fence structure for the NLNG Train 7 Project.'
   }
 ]
 

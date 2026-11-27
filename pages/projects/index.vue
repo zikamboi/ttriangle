@@ -7,7 +7,7 @@ useHead({ title: 'Projects | T Triangle Limited' })
     <PageHero
       eyebrow="Projects"
       title="Selected project work"
-      text="A selection of project examples from our technical support areas."
+      text="Named project assignments across inspection, valve supply, safe isolation, construction and offshore operations."
     />
     <section class="section">
       <div class="container-x space-y-20">
