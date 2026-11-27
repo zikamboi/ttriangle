@@ -24,6 +24,7 @@ interface _GlobalComponents {
   HeroArt: typeof import("../../components/HeroArt.vue")['default']
   Logo: typeof import("../../components/Logo.vue")['default']
   PageHero: typeof import("../../components/PageHero.vue")['default']
+  ProjectFeature: typeof import("../../components/ProjectFeature.vue")['default']
   SectionHead: typeof import("../../components/SectionHead.vue")['default']
   ServiceCard: typeof import("../../components/ServiceCard.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -59,6 +60,7 @@ interface _GlobalComponents {
   LazyHeroArt: LazyComponent<typeof import("../../components/HeroArt.vue")['default']>
   LazyLogo: LazyComponent<typeof import("../../components/Logo.vue")['default']>
   LazyPageHero: LazyComponent<typeof import("../../components/PageHero.vue")['default']>
+  LazyProjectFeature: LazyComponent<typeof import("../../components/ProjectFeature.vue")['default']>
   LazySectionHead: LazyComponent<typeof import("../../components/SectionHead.vue")['default']>
   LazyServiceCard: LazyComponent<typeof import("../../components/ServiceCard.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>

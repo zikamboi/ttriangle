@@ -24,6 +24,7 @@ export const EnquiryForm: typeof import("../components/EnquiryForm.vue")['defaul
 export const HeroArt: typeof import("../components/HeroArt.vue")['default']
 export const Logo: typeof import("../components/Logo.vue")['default']
 export const PageHero: typeof import("../components/PageHero.vue")['default']
+export const ProjectFeature: typeof import("../components/ProjectFeature.vue")['default']
 export const SectionHead: typeof import("../components/SectionHead.vue")['default']
 export const ServiceCard: typeof import("../components/ServiceCard.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -59,6 +60,7 @@ export const LazyEnquiryForm: LazyComponent<typeof import("../components/Enquiry
 export const LazyHeroArt: LazyComponent<typeof import("../components/HeroArt.vue")['default']>
 export const LazyLogo: LazyComponent<typeof import("../components/Logo.vue")['default']>
 export const LazyPageHero: LazyComponent<typeof import("../components/PageHero.vue")['default']>
+export const LazyProjectFeature: LazyComponent<typeof import("../components/ProjectFeature.vue")['default']>
 export const LazySectionHead: LazyComponent<typeof import("../components/SectionHead.vue")['default']>
 export const LazyServiceCard: LazyComponent<typeof import("../components/ServiceCard.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>

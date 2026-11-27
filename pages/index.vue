@@ -93,7 +93,7 @@ const steps = [
     <!-- SERVICES: hover list + preview -->
     <section id="services" class="section bg-brand-mist">
       <div class="container-x">
-        <SectionHead eyebrow="Our Core Services" title="Eight service areas. One dependable partner." />
+        <SectionHead eyebrow="Our Core Services" title="Nine service areas. One dependable partner." />
         <div class="grid gap-10 lg:grid-cols-[1fr_1.05fr]">
           <ul class="border-t border-slate-300">
             <li v-for="(s, i) in services" :key="s.slug" v-reveal="i * 40" class="border-b border-slate-300">
@@ -190,14 +190,23 @@ const steps = [
     </section>
 
     <!-- PROJECTS -->
-    <section class="section bg-brand-mist">
+    <section id="projects" class="section bg-brand-mist">
       <div class="container-x">
-        <div class="mb-14 flex flex-wrap items-end justify-between gap-4"><SectionHead class="!mb-0" eyebrow="Projects" title="Real work. Verified results." /><NuxtLink to="/projects" class="btn btn-outline">All Projects →</NuxtLink></div>
-        <div class="grid gap-6 md:grid-cols-3">
-          <NuxtLink v-for="n in 3" :key="n" to="/projects" v-reveal="n * 90" class="group overflow-hidden bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
-            <AppImage class="h-56" hint="Approved project photo" />
-            <div class="p-6"><p class="text-xs font-semibold uppercase tracking-widest text-brand-red">Industry / application</p><h3 class="mt-2 text-lg">Project title (pending approval)</h3></div>
-          </NuxtLink>
+        <SectionHead
+          eyebrow="Projects"
+          title="Project applications we support"
+          text="A selection of application-focused examples from our technical support areas."
+        />
+        <div class="space-y-16 sm:space-y-20">
+          <ProjectFeature v-for="(project, i) in projects.slice(0, 3)" :key="project.slug" :project="project" :index="i" />
+        </div>
+        <div class="mt-16 flex flex-col gap-6 bg-brand-dark p-8 text-white sm:flex-row sm:items-center sm:justify-between sm:p-10">
+          <div class="max-w-2xl">
+            <p class="eyebrow !text-white">More project work</p>
+            <h3 class="font-display text-3xl font-semibold uppercase !text-white sm:text-4xl">Explore the full project portfolio</h3>
+            <p class="mt-3 text-white/70">See more examples of the technical applications and project support we provide.</p>
+          </div>
+          <NuxtLink to="/projects/all" class="btn btn-red shrink-0">See More Projects</NuxtLink>
         </div>
       </div>
     </section>
@@ -221,9 +230,13 @@ const steps = [
       <div class="container-x">
         <div class="mb-14 flex flex-wrap items-end justify-between gap-4"><SectionHead class="!mb-0" eyebrow="Insights" title="Technical knowledge for better decisions" /><NuxtLink to="/insights" class="btn btn-outline">All Insights →</NuxtLink></div>
         <div class="grid gap-6 md:grid-cols-3">
-          <NuxtLink v-for="(a, i) in insights.slice(0, 3)" :key="a.title" to="/insights" v-reveal="i * 90" class="group border border-slate-200 p-7 transition hover:-translate-y-1 hover:border-brand hover:shadow-xl">
-            <p class="text-xs font-semibold uppercase tracking-widest text-brand-red">{{ a.cat }}</p>
-            <h3 class="mt-4 font-display text-3xl font-semibold uppercase leading-none transition group-hover:text-brand">{{ a.title }}</h3>
+          <NuxtLink v-for="(a, i) in insights.slice(0, 3)" :key="a.slug" :to="`/insights/${a.slug}`" v-reveal="i * 90" class="group flex flex-col overflow-hidden border border-slate-200 transition hover:-translate-y-1 hover:shadow-xl">
+            <div class="overflow-hidden">
+              <img :src="a.image" :alt="a.imageAlt" loading="lazy" class="aspect-[16/10] w-full object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <p class="px-6 pt-6 text-xs font-semibold uppercase tracking-widest text-brand-red">{{ a.cat }} <span class="ml-2 text-slate-500">{{ a.readingTime }}</span></p>
+            <h3 class="mt-4 px-6 font-display text-2xl font-semibold uppercase leading-tight transition group-hover:text-brand">{{ a.title }}</h3>
+            <p class="mt-3 flex-1 px-6 text-sm leading-6 text-slate-600">{{ a.excerpt }}</p>
             <span class="mt-6 inline-block text-sm font-semibold text-brand">Read More →</span>
           </NuxtLink>
         </div>

@@ -3588,6 +3588,45 @@ const services = [
         answer: "That depends on the fluid, pressure, temperature, line size, access and your isolation philosophy. Send us the details and we will recommend an option for your review."
       }
     ]
+  },
+  {
+    slug: "equipment-rental",
+    name: "Equipment Rental Services",
+    image: "/images/service-photos/industrial.webp",
+    detailImages: ["/images/service-photos/industrial.webp", "/images/service-photos/fluid1.webp"],
+    short: "Temporary equipment rental options coordinated to your application and work schedule.",
+    headline: "Equipment Rental Services",
+    intro: "Temporary equipment can help meet a short-term, project-specific or maintenance requirement. T Triangle Limited reviews the intended duty, technical specification, rental period and site conditions, then coordinates suitable options subject to availability and confirmed scope.\n\nRental requirements vary by equipment type and location. Availability, suitability, transport and any supporting services are confirmed before a quotation is finalised.",
+    scope: [
+      "Rental requirement review: Clarify equipment type, duty, quantity and technical specifications.",
+      "Sourcing and availability: Coordinate suitable rental options and confirm availability for the requested period.",
+      "Rental planning: Review duration, delivery and collection requirements, location and site access.",
+      "Handover coordination: Confirm equipment information and handover arrangements included in the agreed scope."
+    ],
+    howWeWork: "1. Share the equipment requirement, intended use, location and rental dates.\n\n2. We review the technical duty, site conditions and logistics.\n\n3. Suitable options, availability and commercial terms are confirmed.\n\n4. Delivery and handover are coordinated within the agreed scope.",
+    enquiry: "Please provide the equipment type and purpose, required specification, quantity, rental period, location and delivery or access requirements.",
+    enquiryDetails: [
+      "Equipment type and intended application",
+      "Required capacity or technical specification",
+      "Quantity",
+      "Rental start date and duration",
+      "Site location and access requirements",
+      "Delivery, collection or supporting service requirements"
+    ],
+    faqs: [
+      {
+        question: "What equipment is available for rental?",
+        answer: "Availability depends on the equipment type, specification, location and rental period. Share your requirement so suitable options can be checked."
+      },
+      {
+        question: "Can I request equipment for a short-term job?",
+        answer: "Yes. Include the expected dates and duration so availability and logistics can be confirmed for your requirement."
+      },
+      {
+        question: "What information should I provide?",
+        answer: "Provide the equipment duty, specification, quantity, rental dates, location and any delivery or site access requirements."
+      }
+    ]
   }
 ];
 const partners = [

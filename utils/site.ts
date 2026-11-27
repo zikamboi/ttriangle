@@ -381,7 +381,89 @@ export const services = [
         question: 'Which method is right for my plant?',
         answer: 'That depends on the fluid, pressure, temperature, line size, access and your isolation philosophy. Send us the details and we will recommend an option for your review.'
       }
-    ] }
+    ] },
+  {
+    slug: 'equipment-rental',
+    name: 'Equipment Rental Services',
+    image: '/images/service-photos/industrial.webp',
+    detailImages: ['/images/service-photos/industrial.webp', '/images/service-photos/fluid1.webp'],
+    short: 'Temporary equipment rental options coordinated to your application and work schedule.',
+    headline: 'Equipment Rental Services',
+    intro: 'Temporary equipment can help meet a short-term, project-specific or maintenance requirement. T Triangle Limited reviews the intended duty, technical specification, rental period and site conditions, then coordinates suitable options subject to availability and confirmed scope.\n\nRental requirements vary by equipment type and location. Availability, suitability, transport and any supporting services are confirmed before a quotation is finalised.',
+    scope: [
+      'Rental requirement review: Clarify equipment type, duty, quantity and technical specifications.',
+      'Sourcing and availability: Coordinate suitable rental options and confirm availability for the requested period.',
+      'Rental planning: Review duration, delivery and collection requirements, location and site access.',
+      'Handover coordination: Confirm equipment information and handover arrangements included in the agreed scope.'
+    ],
+    howWeWork: '1. Share the equipment requirement, intended use, location and rental dates.\n\n2. We review the technical duty, site conditions and logistics.\n\n3. Suitable options, availability and commercial terms are confirmed.\n\n4. Delivery and handover are coordinated within the agreed scope.',
+    enquiry: 'Please provide the equipment type and purpose, required specification, quantity, rental period, location and delivery or access requirements.',
+    enquiryDetails: [
+      'Equipment type and intended application',
+      'Required capacity or technical specification',
+      'Quantity',
+      'Rental start date and duration',
+      'Site location and access requirements',
+      'Delivery, collection or supporting service requirements'
+    ],
+    faqs: [
+      {
+        question: 'What equipment is available for rental?',
+        answer: 'Availability depends on the equipment type, specification, location and rental period. Share your requirement so suitable options can be checked.'
+      },
+      {
+        question: 'Can I request equipment for a short-term job?',
+        answer: 'Yes. Include the expected dates and duration so availability and logistics can be confirmed for your requirement.'
+      },
+      {
+        question: 'What information should I provide?',
+        answer: 'Provide the equipment duty, specification, quantity, rental dates, location and any delivery or site access requirements.'
+      }
+    ]
+  }
+]
+
+export const projects = [
+  {
+    slug: 'valve-operations',
+    category: 'Valve optimisation',
+    title: 'Supporting reliable valve operation',
+    image: '/images/service-photos/valve1.webp',
+    imageAlt: 'Industrial valve equipment',
+    summary: 'We help clarify valve requirements by reviewing the application, service conditions and operational issue, then coordinate suitable procurement or technical support options.'
+  },
+  {
+    slug: 'controlled-bolting',
+    category: 'Bolting and torquing',
+    title: 'Planning work on critical bolted joints',
+    image: '/images/service-photos/bolt1.webp',
+    imageAlt: 'Industrial bolting equipment',
+    summary: 'Joint details, fastener specifications, access and site conditions all shape a bolting plan. We help assemble these requirements and coordinate relevant tooling and technical support.'
+  },
+  {
+    slug: 'fluid-transfer',
+    category: 'Fluid transfer',
+    title: 'Matching transfer equipment to the duty',
+    image: '/images/service-photos/fluid1.webp',
+    imageAlt: 'Industrial fluid transfer equipment',
+    summary: 'We review the fluid, flow rate, pressure and operating environment to help identify suitable pump and transfer options for industrial requirements.'
+  },
+  {
+    slug: 'pressure-testing',
+    category: 'Pressure testing',
+    title: 'Preparing for a pressure test',
+    image: '/images/service-photos/pressure2.webp',
+    imageAlt: 'Pressure testing equipment',
+    summary: 'A clear test scope starts with the equipment or line, test pressure, medium, boundaries and documentation requirements. We help define these details before coordinating support.'
+  },
+  {
+    slug: 'safe-isolation',
+    category: 'Safe isolation',
+    title: 'Planning an isolation for maintenance',
+    image: '/images/service-photos/safe2.webp',
+    imageAlt: 'Industrial safe isolation equipment',
+    summary: 'We help review the isolation objective, process conditions and access requirements, then coordinate suitable specialist options within the agreed project scope.'
+  }
 ]
 
 export const partners = [
@@ -439,14 +521,227 @@ export const why = [
   ['Clear communication', 'Sharing specifications and progressing an enquiry is straightforward.']
 ]
 
-export const insightCategories = ['Technical Articles', 'Maintenance & Reliability', 'Technology Explained', 'Industry News', 'Project Insights', 'Safety & Standards']
+export const insightCategories = [
+  'Maintenance & Reliability',
+  'Technology Explained',
+  'Project Insights',
+  'Technical Articles'
+]
 
-// Sample placeholders taken from the brief's example topics, replace with real articles
 export const insights = [
-  { title: '5 Signs an Industrial Valve Needs Attention', cat: 'Technical Articles', date: 'Sample' },
-  { title: 'Preparing for a Planned Shutdown', cat: 'Maintenance & Reliability', date: 'Sample' },
-  { title: 'What Is Pipeline Pigging?', cat: 'Technology Explained', date: 'Sample' },
-  { title: 'Why Flange Leaks Occur', cat: 'Technical Articles', date: 'Sample' },
-  { title: 'When Is Controlled Bolting Used?', cat: 'Technology Explained', date: 'Sample' },
-  { title: 'Preventive vs Reactive Maintenance', cat: 'Maintenance & Reliability', date: 'Sample' }
+  {
+    slug: 'signs-an-industrial-valve-needs-attention',
+    title: 'Five signs an industrial valve needs attention',
+    cat: 'Maintenance & Reliability',
+    excerpt: 'Leakage, changing response and unusual noise can all point to a valve issue. Learn what to observe before planning the next step.',
+    readingTime: '5 min read',
+    image: '/images/service-photos/valve1.webp',
+    imageAlt: 'Industrial valve equipment',
+    featured: true,
+    sections: [
+      {
+        heading: 'Look for changes, not just failures',
+        paragraphs: [
+          'A valve can show warning signs well before it stops working. External leakage, a change in control response, unusual vibration or noise, corrosion, and a rising actuator effort are all reasons to take a closer look.',
+          'A single symptom does not identify the cause. The same change can come from the valve, actuator, instrument signal, process conditions or connected piping.'
+        ]
+      },
+      {
+        heading: 'Put the observation in context',
+        paragraphs: [
+          'Record when the issue occurs, the valve position, process conditions and any recent maintenance or operating changes. Compare the behaviour with available trends and equipment records.',
+          'Do not adjust or inspect equipment in service unless the approved operating procedure allows it. Isolation, access and inspection should follow site safety requirements.'
+        ]
+      },
+      {
+        heading: 'Turn observations into a maintenance plan',
+        paragraphs: [
+          'Clear observations help maintenance teams decide whether to monitor, inspect, repair or replace a valve. Include the valve tag, service, symptom, frequency and any supporting photographs or instrument data in the work request.'
+        ]
+      }
+    ],
+    takeaways: [
+      'Record symptoms with time and process context.',
+      'Check actuator, controls and piping as well as the valve.',
+      'Follow approved site procedures before intervention.'
+    ]
+  },
+  {
+    slug: 'preparing-for-a-planned-shutdown',
+    title: 'Preparing for a planned shutdown',
+    cat: 'Project Insights',
+    excerpt: 'A practical shutdown starts with a clear work scope, realistic priorities and early coordination of people, equipment and site requirements.',
+    readingTime: '6 min read',
+    image: '/images/service-photos/industrial.webp',
+    imageAlt: 'Industrial maintenance work area',
+    sections: [
+      {
+        heading: 'Define the work before the window',
+        paragraphs: [
+          'Collect equipment lists, inspection findings, maintenance requests and known defects early. Turn them into work packs that describe the task, required resources, tools, parts, access and acceptance criteria.',
+          'Separate critical work from tasks that can safely be deferred. A prioritised scope helps teams protect the shutdown window when conditions change.'
+        ]
+      },
+      {
+        heading: 'Coordinate constraints and dependencies',
+        paragraphs: [
+          'Review long-lead parts, specialist support, lifting or access needs, permits and isolation requirements. Identify which tasks depend on other work being completed first and share those dependencies with the planning team.',
+          'Confirm responsibilities and communication routes across operations, maintenance, contractors and suppliers before work begins.'
+        ]
+      },
+      {
+        heading: 'Plan for a controlled return to service',
+        paragraphs: [
+          'Include inspection, testing, documentation and handover in the schedule—not only repair activities. The required checks and sign-offs should be agreed with the responsible site team and applicable procedures.'
+        ]
+      }
+    ],
+    takeaways: [
+      'Build work packs around scope, resources and acceptance criteria.',
+      'Resolve access, parts and specialist-support needs early.',
+      'Schedule testing and handover as part of the shutdown plan.'
+    ]
+  },
+  {
+    slug: 'what-is-pipeline-pigging',
+    title: 'What is pipeline pigging?',
+    cat: 'Technology Explained',
+    excerpt: 'Pipeline pigs can support cleaning, product separation and inspection. The right tool depends on the line, the task and the operating conditions.',
+    readingTime: '5 min read',
+    image: '/images/service-photos/fluid1.webp',
+    imageAlt: 'Pipeline and fluid transfer equipment',
+    sections: [
+      {
+        heading: 'A tool that travels through the line',
+        paragraphs: [
+          'A pipeline pig is a device introduced into a pipeline and moved by the flow or another approved method. Depending on its design and the job, it may remove deposits, separate batches, displace product or collect inspection data.',
+          'Pigging is not suitable for every line. Internal restrictions, bends, valves, branches, changes in diameter and the condition of the line all affect whether a tool can pass safely.'
+        ]
+      },
+      {
+        heading: 'Match the pig to the purpose',
+        paragraphs: [
+          'Cleaning, batching and inspection have different requirements. Tool type, materials, sealing elements and instrumentation should be selected for the pipeline geometry, transported product, pressure and temperature limits, and the intended result.'
+        ]
+      },
+      {
+        heading: 'Plan the complete operation',
+        paragraphs: [
+          'A pigging plan considers launch and receive facilities, line isolation, communication, monitoring, product handling and contingency arrangements. Use the site-approved procedure and specialist assessment for the specific line.'
+        ]
+      }
+    ],
+    takeaways: [
+      'Start with the objective: clean, separate, displace or inspect.',
+      'Check line geometry and operating limits before tool selection.',
+      'Plan launch, receipt, monitoring and contingencies together.'
+    ]
+  },
+  {
+    slug: 'why-flange-leaks-occur',
+    title: 'Why flange leaks occur',
+    cat: 'Technical Articles',
+    excerpt: 'Flange leakage can involve gasket condition, joint assembly, alignment or operating changes. Treat the cause—not just the visible leak.',
+    readingTime: '6 min read',
+    image: '/images/service-photos/flange2.webp',
+    imageAlt: 'Industrial flange and pipework',
+    sections: [
+      {
+        heading: 'The joint has to work as a system',
+        paragraphs: [
+          'A flanged joint depends on compatible components assembled in a controlled way. Gasket selection, flange-face condition, alignment, fastener condition and the applied bolt load all influence sealing performance.',
+          'Temperature or pressure changes, vibration, corrosion and pipe movement can also affect a joint during service.'
+        ]
+      },
+      {
+        heading: 'Investigate before re-tightening',
+        paragraphs: [
+          'A visible leak does not reveal the underlying cause. Re-tightening a pressurised joint without an approved procedure can create additional risk and may damage the joint or expose personnel to the process fluid.',
+          'Follow site leak-response and isolation procedures. Record the service, joint details, operating conditions and any recent assembly or maintenance work for a planned assessment.'
+        ]
+      },
+      {
+        heading: 'Improve reliability at reassembly',
+        paragraphs: [
+          'When the joint is safely available for work, inspect the flange faces and fasteners, confirm component compatibility and use an approved assembly method. Documenting materials, method and inspection results supports future troubleshooting.'
+        ]
+      }
+    ],
+    takeaways: [
+      'Consider gasket, flange faces, alignment and bolting together.',
+      'Do not treat re-tightening as a universal leak fix.',
+      'Use approved isolation and assembly procedures.'
+    ]
+  },
+  {
+    slug: 'when-controlled-bolting-is-used',
+    title: 'When is controlled bolting used?',
+    cat: 'Technology Explained',
+    excerpt: 'Controlled bolting methods help achieve a specified joint load where accuracy, repeatability or access make conventional tightening unsuitable.',
+    readingTime: '5 min read',
+    image: '/images/service-photos/bolt1.webp',
+    imageAlt: 'Industrial bolting and torquing equipment',
+    sections: [
+      {
+        heading: 'When repeatability matters',
+        paragraphs: [
+          'Controlled bolting may be considered for critical joints, large fasteners, limited access or applications where a defined and repeatable assembly method is required.',
+          'Torque tools, hydraulic tensioners and other methods each have different operating principles and constraints. The choice should reflect the joint design and approved engineering requirements.'
+        ]
+      },
+      {
+        heading: 'What the selection depends on',
+        paragraphs: [
+          'Useful information includes fastener size and grade, joint configuration, target load or torque, lubrication, available access, tool clearance and site conditions. The responsible engineer or procedure should define the required values and sequence.'
+        ]
+      },
+      {
+        heading: 'Control the method as well as the tool',
+        paragraphs: [
+          'Correct tool condition, calibration status, operator competence, tightening sequence and recording are all part of a controlled bolting activity. Follow the project specification and equipment instructions for the application.'
+        ]
+      }
+    ],
+    takeaways: [
+      'Select the method from the joint requirements, not convenience alone.',
+      'Use specified loads, sequences and suitable tools.',
+      'Record the method and results for traceability.'
+    ]
+  },
+  {
+    slug: 'preventive-versus-reactive-maintenance',
+    title: 'Preventive vs reactive maintenance',
+    cat: 'Maintenance & Reliability',
+    excerpt: 'Compare planned maintenance with responding after a failure, and see how asset criticality and condition can guide a balanced approach.',
+    readingTime: '5 min read',
+    image: '/images/service-photos/safe2.webp',
+    imageAlt: 'Industrial equipment prepared for maintenance',
+    sections: [
+      {
+        heading: 'Two different responses to equipment risk',
+        paragraphs: [
+          'Preventive maintenance is planned before a known failure point or at a defined interval. Reactive maintenance is carried out after a fault or failure has occurred.',
+          'Neither approach fits every asset. The consequences of failure, available condition information, maintenance access and the cost of intervention all matter.'
+        ]
+      },
+      {
+        heading: 'Use criticality and evidence',
+        paragraphs: [
+          'For equipment with significant safety, environmental or operational consequences, a planned inspection or maintenance strategy may reduce exposure to unexpected failure. For low-consequence items, a simpler approach may be appropriate.',
+          'Condition monitoring, maintenance history and failure data can help refine task intervals and identify when a plan is no longer effective.'
+        ]
+      },
+      {
+        heading: 'Review the strategy over time',
+        paragraphs: [
+          'Track recurring faults, downtime, parts use and work-order findings. Use these records to adjust the strategy with the responsible engineering and operations teams.'
+        ]
+      }
+    ],
+    takeaways: [
+      'Choose a strategy based on failure consequences and evidence.',
+      'Review maintenance intervals when condition or operating duty changes.',
+      'Use work history to improve the plan over time.'
+    ]
+  }
 ]

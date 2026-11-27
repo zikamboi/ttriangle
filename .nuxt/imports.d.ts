@@ -31,5 +31,5 @@ export { setInterval } from '#app/compat/interval';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';
 export { defineLazyHydrationComponent } from '#app/composables/lazy-hydration';
 export { setTrackingConfig, loadTags, trackPageView, trackEvent, captureAttribution, getAttribution } from '../composables/useTrack';
-export { contact, nav, services, partners, markets, why, insightCategories, insights } from '../utils/site';
+export { contact, nav, services, projects, partners, markets, why, insightCategories, insights } from '../utils/site';
 export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
