@@ -2177,22 +2177,7 @@ _KrxRKhvd1Sq1SDTWKe2UO2q4R8WAIK3kENKN2s_vQs,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
-const assets = {
-  "/index.mjs": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"23d4b-Ib5xwYA7SADrOjmpI4qqDi0GNCg\"",
-    "mtime": "2026-11-25T23:58:29.678Z",
-    "size": 146763,
-    "path": "index.mjs"
-  },
-  "/index.mjs.map": {
-    "type": "application/json",
-    "etag": "\"915e0-EUOUFJ2apYIMGLGDGo4UfCA5uGs\"",
-    "mtime": "2026-11-25T23:58:29.678Z",
-    "size": 595424,
-    "path": "index.mjs.map"
-  }
-};
+const assets = {};
 
 function readAsset (id) {
   const serverDir = dirname$1(fileURLToPath(globalThis._importMeta_.url));
@@ -3606,28 +3591,48 @@ const services = [
   }
 ];
 const partners = [
-  { name: "oems1", image: "/images/oems1.webp" },
-  { name: "oems2", image: "/images/oems2.webp" },
-  { name: "oems3", image: "/images/oems3.webp" },
-  { name: "oems4", image: "/images/oems4.webp" },
-  { name: "oems5", image: "/images/oems5.webp" },
-  { name: "oems6", image: "/images/oems6.webp" },
-  { name: "oems7", image: "/images/oems7.webp" },
-  { name: "oems8", image: "/images/oems8.webp" },
-  { name: "oems9", image: "/images/oems9.webp" },
-  { name: "oems10", image: "/images/oems10.webp" },
-  { name: "oems11", image: "/images/oems11.webp" },
-  { name: "oems12", image: "/images/oems12.webp" },
-  { name: "oems13", image: "/images/oems13.webp" },
-  { name: "oems14", image: "/images/oems14.webp" },
-  { name: "oems15", image: "/images/oems15.webp" },
-  { name: "oems16", image: "/images/oems16.webp" },
-  { name: "oems17", image: "/images/oems17.webp" },
-  { name: "oems18", image: "/images/oems18.webp" },
-  { name: "oems19", image: "/images/oems19.webp" },
-  { name: "oems20", image: "/images/oems20.webp" },
-  { name: "oems21", image: "/images/oems21.webp" },
-  { name: "oems22", image: "/images/oems22.webp" }
+  {
+    name: "OVOLIFTS",
+    slug: "ovolifts",
+    image: "/images/oems1.webp",
+    short: "Lifting solutions for industrial and operational requirements.",
+    detail: "For lifting enquiries, the equipment choice depends on the load, lift height, duty cycle, site conditions and applicable safety requirements. T Triangle can help frame these details and coordinate a discussion about relevant OVOLIFTS options."
+  },
+  {
+    name: "MODEC",
+    slug: "modec",
+    image: "/images/oems2.webp",
+    short: "Offshore floating production technology for energy projects.",
+    detail: "MODEC is known for floating production systems used in offshore energy projects. Project requirements, vessel configuration, production duty and operating conditions all shape the right discussion. T Triangle can help clients connect their project context with the appropriate technical conversation."
+  },
+  {
+    name: "VALVETIGHTS",
+    slug: "valvetights",
+    image: "/images/oems3.webp",
+    short: "Valve-focused technology and support for industrial operations.",
+    detail: "Valve enquiries start with the valve type, process conditions, observed issue and maintenance objective. T Triangle helps clarify this information and coordinate a discussion on applicable VALVETIGHTS options."
+  },
+  {
+    name: "LINERIDER",
+    slug: "linerider",
+    image: "/images/oems4.webp",
+    short: "Specialist pipeline technology for line and asset requirements.",
+    detail: "Pipeline needs vary by line size, construction, operating conditions, access and the requested outcome. We work with clients to capture those details and explore relevant LINERIDER solutions with the appropriate technical context."
+  },
+  {
+    name: "ALKITRONICS",
+    slug: "alkitronics",
+    image: "/images/oems5.webp",
+    short: "Precision bolting and torque technology for industrial joints.",
+    detail: "Bolting applications depend on fastener and joint details, target torque or tension, access and worksite constraints. T Triangle can help gather this information and coordinate a discussion about relevant ALKITRONICS equipment."
+  },
+  {
+    name: "ALCATRAZ",
+    slug: "alcatraz",
+    image: "/images/oems6.webp",
+    short: "Specialist industrial technology for application-specific challenges.",
+    detail: "A successful technology choice starts with the operational problem, site conditions and the outcome required. T Triangle helps clarify the scope and coordinate a conversation about applicable ALCATRAZ products or support with the relevant supplier."
+  }
 ];
 const markets = ["Oil & Gas", "Energy & Power", "Industrial & Manufacturing", "Marine & Offshore", "Construction & Process Industries"];
 

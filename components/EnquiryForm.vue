@@ -3,7 +3,7 @@ const props = defineProps<{ preset?: string }>()
 const route = useRoute()
 const f = reactive({
   name: '', company: '', email: '', phone: '', country: '', location: '',
-  service: props.preset || (route.query.service as string) || '', technology: '', type: '', details: '', date: '', consent: false, website: ''
+  service: props.preset || (route.query.service as string) || '', technology: (route.query.technology as string) || '', type: '', details: '', date: '', consent: false, website: ''
 })
 const file = ref<File | null>(null)
 const fileError = ref('')

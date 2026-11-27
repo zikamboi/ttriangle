@@ -285,8 +285,8 @@ const services = [
   {
     slug: "touchpoint-engineering-access-creation",
     name: "Touchpoint Engineering & Access Creation (CUPS Remediation)",
-    image: "/images/touchpoint3.webp",
-    detailImages: ["/images/service-photos/touch1.webp", "/images/service-photos/touch2.webp"],
+    image: "/images/touch6.webp",
+    detailImages: ["/images/service-photos/touch4.webp", "/images/service-photos/touch5.webp"],
     short: "CUPS remediation and touchpoint access creation support with Ovolifts.",
     headline: "Touchpoint Engineering and Access Creation for CUPS Remediation, by Ovolifts",
     intro: "Corrosion under pipe supports (CUPS) is one of the hardest integrity threats to inspect, because the damage sits exactly where the pipe rests on its support. T Triangle Limited works with Ovolifts, to help operators in Nigeria gain safe access to pipe touchpoints so they can be inspected, cleaned, coated and protected.",
@@ -344,8 +344,8 @@ const services = [
   {
     slug: "safe-isolation-solutions",
     name: "Safe Isolation Solutions",
-    image: "/images/safesolution.webp",
-    detailImages: ["/images/service-photos/touch1.webp", "/images/service-photos/touch2.webp"],
+    image: "/images/safe5.webp",
+    detailImages: ["/images/service-photos/safe3.webp", "/images/service-photos/safe4.webp"],
     short: "Specialist isolation technologies for controlled maintenance and operations.",
     headline: "Safe Isolation Solutions in Nigeria",
     intro: "Safe isolation protects people, plant and the environment whenever equipment must be opened for maintenance, inspection, repair or modification. T Triangle Limited helps operators in Nigeria select and deliver the right isolation method for each job, including methods that allow work to proceed while the rest of the system stays in service.\n\nThere is no single answer for every job. The right solution depends on the process fluid, pressure and temperature, the isolation philosophy of the operator, the risk assessment and the approved procedures.",
@@ -400,28 +400,48 @@ const services = [
   }
 ];
 const partners = [
-  { name: "oems1", image: "/images/oems1.webp" },
-  { name: "oems2", image: "/images/oems2.webp" },
-  { name: "oems3", image: "/images/oems3.webp" },
-  { name: "oems4", image: "/images/oems4.webp" },
-  { name: "oems5", image: "/images/oems5.webp" },
-  { name: "oems6", image: "/images/oems6.webp" },
-  { name: "oems7", image: "/images/oems7.webp" },
-  { name: "oems8", image: "/images/oems8.webp" },
-  { name: "oems9", image: "/images/oems9.webp" },
-  { name: "oems10", image: "/images/oems10.webp" },
-  { name: "oems11", image: "/images/oems11.webp" },
-  { name: "oems12", image: "/images/oems12.webp" },
-  { name: "oems13", image: "/images/oems13.webp" },
-  { name: "oems14", image: "/images/oems14.webp" },
-  { name: "oems15", image: "/images/oems15.webp" },
-  { name: "oems16", image: "/images/oems16.webp" },
-  { name: "oems17", image: "/images/oems17.webp" },
-  { name: "oems18", image: "/images/oems18.webp" },
-  { name: "oems19", image: "/images/oems19.webp" },
-  { name: "oems20", image: "/images/oems20.webp" },
-  { name: "oems21", image: "/images/oems21.webp" },
-  { name: "oems22", image: "/images/oems22.webp" }
+  {
+    name: "OVOLIFTS",
+    slug: "ovolifts",
+    image: "/images/oems1.webp",
+    short: "Lifting solutions for industrial and operational requirements.",
+    detail: "For lifting enquiries, the equipment choice depends on the load, lift height, duty cycle, site conditions and applicable safety requirements. T Triangle can help frame these details and coordinate a discussion about relevant OVOLIFTS options."
+  },
+  {
+    name: "MODEC",
+    slug: "modec",
+    image: "/images/oems2.webp",
+    short: "Offshore floating production technology for energy projects.",
+    detail: "MODEC is known for floating production systems used in offshore energy projects. Project requirements, vessel configuration, production duty and operating conditions all shape the right discussion. T Triangle can help clients connect their project context with the appropriate technical conversation."
+  },
+  {
+    name: "VALVETIGHTS",
+    slug: "valvetights",
+    image: "/images/oems3.webp",
+    short: "Valve-focused technology and support for industrial operations.",
+    detail: "Valve enquiries start with the valve type, process conditions, observed issue and maintenance objective. T Triangle helps clarify this information and coordinate a discussion on applicable VALVETIGHTS options."
+  },
+  {
+    name: "LINERIDER",
+    slug: "linerider",
+    image: "/images/oems4.webp",
+    short: "Specialist pipeline technology for line and asset requirements.",
+    detail: "Pipeline needs vary by line size, construction, operating conditions, access and the requested outcome. We work with clients to capture those details and explore relevant LINERIDER solutions with the appropriate technical context."
+  },
+  {
+    name: "ALKITRONICS",
+    slug: "alkitronics",
+    image: "/images/oems5.webp",
+    short: "Precision bolting and torque technology for industrial joints.",
+    detail: "Bolting applications depend on fastener and joint details, target torque or tension, access and worksite constraints. T Triangle can help gather this information and coordinate a discussion about relevant ALKITRONICS equipment."
+  },
+  {
+    name: "ALCATRAZ",
+    slug: "alcatraz",
+    image: "/images/oems6.webp",
+    short: "Specialist industrial technology for application-specific challenges.",
+    detail: "A successful technology choice starts with the operational problem, site conditions and the outcome required. T Triangle helps clarify the scope and coordinate a conversation about applicable ALCATRAZ products or support with the relevant supplier."
+  }
 ];
 const markets = ["Oil & Gas", "Energy & Power", "Industrial & Manufacturing", "Marine & Offshore", "Construction & Process Industries"];
 
